@@ -1,0 +1,3440 @@
+{
+  "case_studies": [
+    {
+      "id": "co-operators-story-26",
+      "content_type": "Customer Story",
+      "customer_name": "Co-operators",
+      "title": "Canadian insurer drives higher revenue, customer engagement, brand loyalty with Sitecore",
+      "overview": "Co-operators\u2019 digital transformation wins 130% more quotes, 50% more conversions, and 40% efficiency gain.",
+      "project_brief": "Leading Canadian insurer, Co-operators, has achieved a remarkable digital transformation powered by Sitecore. Business performance and revenue generation, customer engagement, brand loyalty and operational efficiency have all seen significant improvement. Customers spend more time on the website, find the insurance products they want faster, and are converted to paying customers quicker.",
+      "stats": [
+        {
+          "label": "home and auto policies via digital",
+          "value": "40%"
+        },
+        {
+          "label": "increase in quotes",
+          "value": "130%"
+        },
+        {
+          "label": "more conversions",
+          "value": ">50%"
+        },
+        {
+          "label": "faster time to market for new content",
+          "value": "4x"
+        },
+        {
+          "label": "efficiency gain",
+          "value": "40%"
+        },
+        {
+          "label": "more visitor returns",
+          "value": ">13%"
+        }
+      ],
+      "challenge": {
+        "headline": "From an acorn to a great oak of the co-operative movement",
+        "text": "Co-operators is a leading Canadian financial services cooperative, offering multi-line insurance and investment products, services and personalized advice to help Canadians build their financial strength and security. As it celebrates 80 years of providing trusted guidance to Canadians coast to coast, Co-operators has more than $60 billion in assets under administration. Co-operators has multiple channels to market including web, social media, and its mobile app. Co-operators leaned into digital transformation early on, recognizing a rapidly evolving landscape that changed how clients consume information and conduct business. In addition to improving the client experience, the company saw an opportunity for digital tools to improve efficiency, productivity and automation. The strategy was to shift to a cloud-based digital experience platform to support a dynamic, agile website, meet growing traffic demand and deliver a true ecommerce experience. Co-operators also wanted to increase brand awareness, improve lead generation, creating stronger engagement with customers, and deliver impactful interactions with audiences."
+      },
+      "solution": {
+        "headline": "Seamless personalization",
+        "text": "Working with Sitecore partner Deloitte Digital, Co-operators has integrated Salesforce Marketing Cloud with Sitecore XP hosted on Sitecore Managed Cloud to power digital transformation and website improvement. With its modernized, SEO-enhanced digital experience platform and website, Co-operators has strengthened brand awareness, developed content consistency, and enhanced the customer experience across multiple channels and customer touchpoints. Integration between Sitecore and Salesforce supports over 100 personalized campaigns targeting multiple personas. Sitecore Authoring enables internal, non-technical teams to launch content four times faster. Other integrations such as the National Quote & Buy app improves the customer journey, increasing leads and acquisitions. \u201cWe don\u2019t just try to be the best insurance website, we aim to be the best digital experience, so whether it\u2019s searching for insurance or groceries online, you get what you expect to see from a digital provider,\u201d said Mike Bruno AVP, Digital at Co-operators."
+      },
+      "outcome": {
+        "headline": "Revenue and customer experience transformation",
+        "text": "Sitecore has enabled Co-operators to transform customer engagement and revenue creation. Now the company generates 40% of its home and auto policies via digital channels with quotes up by 130% and conversions up 50%+. Better content, personalization, and navigation have led to 17% growth in product relevancy, 15%+ more time on site, 13%+ more visitor returns, and 11% faster page loads. Operational improvements and removing technical barriers such as out-of-the-box Sitecore editor means time to market is down from two days to 20 minutes and a 40% rise in efficiency representing a saving of $200,000 a year. Sitecore modular content has saved 200% more time and made finding assets up to 100% easier. Leveraging better customer insights which showed web-savvy millennials buying rental insurance, Co-operators can now also identify cross-sell opportunities. \u201cSitecore enables Co-operators to speak to many different audiences, customize experiences across our website and ensure our digital storefront addresses all visitor preferences. It drives the right interactions, we launch comprehensive campaigns faster, and refresh content daily,\u201d said Bruno."
+      },
+      "testimonial": {
+        "quote": "Sitecore is a resounding success. It has helped revolutionize our digital presence, drive brand awareness, enhance customer engagement, and deliver personalized experiences. It also achieved a remarkable increase in lead generation, and greater customer retention and brand loyalty. Sitecore empowers Co-operators to adapt to market trends, exceed customer expectation, and solidify our industry leader position.",
+        "author_name": "Greg Elcich",
+        "author_title": "VP Digital",
+        "author_company": "Co-operators"
+      },
+      "industry": "Financial Services",
+      "business_model": "B2C",
+      "products": [
+        "Managed Cloud",
+        "XP"
+      ],
+      "stack": [
+        "Salesforce"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/co-operators/co-operators-digital-transformation-drives-business-up-with-sitecore",
+      "logo": "",
+      "image_url": "",
+      "has_video": false,
+      "video_url": "",
+      "has_partner": true,
+      "partner_logo": "",
+      "partner_url": "https://www.deloittedigital.com/",
+      "product_ids": [
+        "managed-cloud",
+        "experience-platform"
+      ],
+      "stack_ids": [
+        "salesforce"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "personalization",
+          "customer journey",
+          "customer experience",
+          "customer insights",
+          "campaign"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "pet-supplies-plus-11",
+      "content_type": "Customer Award",
+      "customer_name": "Pet Supplies Plus",
+      "title": "Pet Supplies Plus on track to boost sales and satisfaction with Sitecore replatform",
+      "overview": "US pet supplies retailer establishes integrated digital platform with seamless content management, digital asset management, and headless ecommerce on Sitecore.",
+      "stats": [
+        {
+          "label": "Increased conversions and sales",
+          "value": null
+        },
+        {
+          "label": "Higher efficiency",
+          "value": null
+        },
+        {
+          "label": "Better site performance",
+          "value": null
+        }
+      ],
+      "project_brief": "Pet Supplies Plus partnered with Horizontal Digital to implement an end\u2011to\u2011end digital platform based on composable Sitecore technologies.",
+      "challenge": {
+        "headline": "Establishing a digital environment fit for growth",
+        "text": "The company\u2019s legacy web platform lacked the necessary features and flexibility to support its goals... legacy technologies made integrations challenging, increased maintenance costs, and resulted in performance issues and downtime..."
+      },
+      "solution": {
+        "headline": "An end-to-end modern experience platform",
+        "text": "...migrated to a modern experience platform built on composable Sitecore technologies. Sitecore XM Cloud streamlines content management... Sitecore Content Hub Operations enhances digital team collaboration... With Sitecore Content Hub DAM, Pet Supplies Plus can centrally manage all its digital assets, while Sitecore OrderCloud enables scalable, next\u2011generation headless commerce. Additionally, Sitecore Discover is being integrated to personalize product search results... The Sitecore\u2011based headless architecture seamlessly integrates with advanced digital tools and improves website reliability... includes front\u2011end hosting on Vercel."
+      },
+      "outcome": {
+        "headline": "Increasing sales and customer satisfaction",
+        "text": "The new Sitecore DXP will help Pet Supplies Plus unlock greater growth with scalability... Improved performance and the ability to cope with peaks in demand, combined with advanced capabilities such as personalization, will ensure better customer experiences, which is expected to boost customer satisfaction and sales."
+      },
+      "testimonial": {
+        "quote": "Sitecore\u2019s advanced digital experience platform underpins our commitment to growing our online capabilities, elevating the customer experience, and maximizing operational efficiency. With a modern technology stack and advanced capabilities such as AI\u2011powered personalization, we\u2019ll be well\u2011positioned to support customer\u2011centric growth.",
+        "author_name": "Miles Tedder",
+        "author_title": "Chief Marketing & Chief Supply Chain Officer",
+        "author_company": "Pet Supplies Plus"
+      },
+      "industry": "Retail",
+      "business_model": "B2C",
+      "products": [
+        "OrderCloud",
+        "XM Cloud",
+        "Content Hub",
+        "Search",
+        "Discover",
+        "Personalize"
+      ],
+      "stack": [
+        "Sitecore360",
+        "Vercel"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/pet-supplies-plus/pet-supplies-plus-enables-omnichannel-growth-with-sitecore",
+      "partner_url": "https://www.horizontaldigital.com",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/0672489b305e45a2b82b6d39869bb5f0?v=6e590c9b",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b43424b79be946ec8d9a1a36b4b2c70f?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R70kG&d=%2Fa%2FUj000003p2CY%2FGkkh98P68tAupYvcZvYzVUjRiIN6yKAgcXZWsTVxNJw&asPdf=false",
+      "product_ids": [
+        "ordercloud",
+        "xm-cloud",
+        "content-hub",
+        "discover",
+        "personalize"
+      ],
+      "stack_ids": [
+        "vercel"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Operational Consolidation",
+          "Performance Improvement"
+        ],
+        "terms": [
+          "personalization",
+          "customer experience",
+          "content management",
+          "DAM",
+          "DXP"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "synapxe-xx",
+      "content_type": "Customer Award",
+      "customer_name": "Synapxe",
+      "title": "Synapxe increases returning site visitors by 150%",
+      "overview": "Sitecore DXP helps Singapore\u2019s national health tech agency boost return traffic.",
+      "project_brief": "Synapxe chose Sitecore as the foundation for its new and rebranded web portal, implemented by Sitecore Silver and Gold Partner Espire Infolabs. Within six months of going live, the new Sitecore-based Synapxe portal has achieved better data management, significant improvement in audience engagement and the attraction of new audiences, and a faster time to market.",
+      "stats": [
+        {
+          "label": "Increase in time on site",
+          "value": "54%"
+        },
+        {
+          "label": "Rise in returning visitors",
+          "value": "150%"
+        },
+        {
+          "label": "More newcomers to the site",
+          "value": "170%"
+        },
+        {
+          "label": "Time to create new pages",
+          "value": "2 weeks (from 1 month)"
+        }
+      ],
+      "challenge": {
+        "headline": "Healthcare transformation",
+        "text": "As Singapore\u2019s national healthtech agency, Synapxe creates and deploys solutions that connect people and systems and accelerates technology innovation to transform healthcare. Synapxe aims to use intelligent technological solutions to revolutionize public healthcare while ensuring scalability, reliability, and cost-effectiveness for future growth. A new Synapxe identity demanded an overhaul of its web portal platform. The existing CMS, for instance, had reached its end-of-life and lacked self-serve capabilities for non-technical users. The critical business need was to develop a modern and intuitive web portal to communicate Synapxe\u2019s national role."
+      },
+      "solution": {
+        "headline": "Improved productivity",
+        "text": "Starting with a greenfield environment, Synapxe, along with Sitecore and its business partner, Espire Infolabs, built a new web portal based on a Sitecore DXP. The solution, which includes Sitecore Managed Cloud and Sitecore Experience Manager integrated with Microsoft Azure, is helping Synapxe increase engagement and build trust by establishing a powerful CMS that simplifies content creation and management across channels and devices. Critically, improved audience data and behavior analysis enable Synapxe to deliver more relevant content to visitors, driving better engagement, conversion rates, and loyalty. With the new CMS, Synapxe has improved content management processes to support its rebranded image and deliver relevant audience experiences. Sitecore Experience Editor has significantly improved the efficiency of creating website content, enhancing user engagement and satisfaction. Additional improvements include enhanced security and load balancing."
+      },
+      "outcome": {
+        "headline": "Modernized content management",
+        "text": "With the help of Sitecore, Synapxe has created a fresh, clean and inviting look and feel and achieved significant performance improvement for its new website. Visitors can now quickly and easily navigate their way to the information they need and instantly see the breadth and scope of digital healthcare services that Synapxe fosters. One example is the new HealthHub web and app service, also powered by Sitecore. With just six months of the new branded site going live, time on the Synapxe site increased by 54%, return traffic by 150% and new visitors by 170%. Sitecore has also helped Synapxe modernize content management, with business users and authors cutting the time to market for new content by 50%. Because they no longer need to use HTML coding and can use pre-designed components, the effort in creating a new page has been cut from a month to less than two weeks. The Sitecore media library consolidates media assets in one place and makes them easy to view and access. By using Sitecore Managed Cloud, Synapxe reduced IT and management costs while improving scalability, availability and performance even during peak demand."
+      },
+      "testimonial": {
+        "quote": "With Sitecore XM, our non-technical content owners are now empowered to manage the website components and content on their own, enabling the website to be kept up-to-date with the latest, most relevant and interesting content for our audiences. We have been experiencing an encouraging increase in the number of returning visitors and the duration that visitors are spending on Synapxe\u2019s corporate website in the span of a few months.",
+        "author_name": "Karen Low",
+        "author_title": "Director, Corporate Communications",
+        "author_company": "Synapxe"
+      },
+      "industry": "Healthcare and Life Sciences",
+      "business_model": "B2C",
+      "products": [
+        "XM",
+        "Managed Cloud"
+      ],
+      "stack": [
+        "Microsoft"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/synapxe/singapore-digital-healthcare-engagement-increased-170-percent-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/f61c53b02ea8461ba67fbf12187aa025?v=ad2984e7",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/3a9735b2ed9d485896ce9dc99df64043?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000SD8Z3&d=%2Fa%2FUj000003p29J%2FWW.qpHaUEUsb1K4vy9FHJhYK5dS0eetKHKDjyPMzdG4&asPdf=false",
+      "partner_url": "https://www.espire.com/",
+      "product_ids": [
+        "xm",
+        "managed-cloud"
+      ],
+      "stack_ids": [
+        "microsoft"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Time to Market / Efficiency",
+          "Performance Improvement",
+          "Cost Reduction"
+        ],
+        "terms": [
+          "DXP",
+          "content management",
+          "user experience",
+          "CMS",
+          "cloud",
+          "DAM",
+          "analytics",
+          "personalization"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "aer-lingus-xx",
+      "content_type": "Customer Story",
+      "customer_name": "Aer Lingus",
+      "title": "Aer Lingus improved conversions by 1675 percent with Sitecore",
+      "overview": "Aer Lingus partnered with Sitecore and Acxiom to enhance its existing DXP by integrating Sitecore CDP, Sitecore Connect, and Sitecore Personalize, leading to significant improvements in digital check-ins, homepage destination promotion conversion, and marketing ROI, fostering a data-driven mindset.",
+      "project_brief": "Aer Lingus partnered with Sitecore and Acxiom to enhance its existing DXP by integrating Sitecore CDP, Sitecore Connect, and Sitecore Personalize, leveraging customer data to provide personalized offers, real-time alerts, and tailored experiences throughout the customer journey.",
+      "stats": [
+        {
+          "label": "Increase in digital check-ins via homepage",
+          "value": "2.5%"
+        },
+        {
+          "label": "Increase in homepage destination promotion conversion",
+          "value": "150%"
+        },
+        {
+          "label": "Marketing ROI (PoC)",
+          "value": "800%"
+        },
+        {
+          "label": "Reduction in homepage exit rates",
+          "value": "16%"
+        },
+        {
+          "label": "Increase in 'Manage Trip' volumes",
+          "value": "1% point"
+        }
+      ],
+      "challenge": {
+        "headline": "Enhancing digital experiences and leveraging customer data effectively",
+        "text": "Aer Lingus aimed to enhance its digital experience by leveraging customer data more effectively to provide personalized offers, real-time alerts, and tailored experiences throughout the customer journey."
+      },
+      "solution": {
+        "headline": "Integrated DXP with Sitecore CDP, Connect, and Personalize",
+        "text": "Aer Lingus partnered with Sitecore and Acxiom to enhance its existing DXP by integrating Sitecore CDP, Sitecore Connect, and Sitecore Personalize to provide personalized offers, real-time alerts, and tailored experiences."
+      },
+      "outcome": {
+        "headline": "Significant conversion improvements and data-driven mindset",
+        "text": "Aer Lingus achieved significant improvements including a 2.5% increase in digital check-ins, a 150% increase in homepage destination promotion conversion, and an 800% marketing ROI during the proof of concept. The project also led to a 16% reduction in homepage exit rates and a 1% point increase in 'Manage Trip' volumes, fostering a data-driven mindset within the business."
+      },
+      "testimonial": {
+        "quote": "This project was all about learning new ways of engaging customers via data driven insights and improving their travel experience. Whether signposting customers towards digital check-in, helping customers redeem their reward points, or making connecting journeys easier, the value has been impressive.",
+        "author_name": "Ronan Menton",
+        "author_title": "Senior Product Manager",
+        "author_company": "Aer Lingus"
+      },
+      "industry": "Travel and Hospitality",
+      "business_model": "B2C",
+      "products": [
+        "CDP",
+        "Connect",
+        "Personalize"
+      ],
+      "stack": [
+        "Acxiom"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/aer-lingus/aer-lingus-improved-conversions-by-1675-percent-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/626dafb670ee405fb43eb6d94bff0cb7?v=fa932f1e",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/83dc135ed0e74883afac44817d41ade5?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R6sBo&d=%2Fa%2FUj000001TbwT%2FKC9RG7zlcg3myaweMFwPYSFUjTL6QaaBSQwUcZrWJao&asPdf=false",
+      "partner_url": "https://www.acxiom.com/",
+      "product_ids": [
+        "cdp",
+        "connect",
+        "personalize"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Revenue Growth",
+          "Performance Improvement"
+        ],
+        "terms": [
+          "personalization",
+          "customer journey",
+          "customer data",
+          "DXP",
+          "integration"
+        ]
+      },
+      "persona": "Business"
+    },
+    {
+      "id": "ctamb-20",
+      "content_type": "Customer Story",
+      "customer_name": "California Teachers Association Member Benefits",
+      "title": "CTAMB improves online experiences for educators with Sitecore XM Cloud",
+      "overview": "Transitioning to Sitecore\u2019s composable CMS and AI\u2011powered search solutions boosts performance for 300,000+ CTA members by more than 60%.",
+      "project_brief": "...the organization elected to migrate to a composable digital experience platform built on Sitecore XM Cloud and Sitecore Search. The new site offers enhanced user experiences and AI\u2011assisted search...",
+      "stats": [
+        {
+          "label": "Faster website response time",
+          "value": "67%"
+        },
+        {
+          "label": "Higher mobile PageSpeed score",
+          "value": "40%"
+        },
+        {
+          "label": "Increased desktop PageSpeed score",
+          "value": "45%"
+        }
+      ],
+      "challenge": {
+        "headline": "Providing intuitive member experiences",
+        "text": "The site needed to offer intuitive experiences so they could easily find the help they need."
+      },
+      "solution": {
+        "headline": "Migrating to Sitecore\u2019s cloud\u2011native, composable platform",
+        "text": "CTAMB migrated to a headless, composable approach using Sitecore XM Cloud and AI\u2011based Sitecore Search, rebuilt by Oshyn. The new site uses Next.js, React, Azure B2C for member access, MS Dynamics CRM for member communications..."
+      },
+      "outcome": {
+        "headline": "Faster performance and improved search boosts user experiences",
+        "text": "The new platform delivers 67% faster response times, 40% higher mobile and 45% higher desktop PageSpeed scores, improved SEO, seamless AI\u2011powered search, lower maintenance costs, and greater agility..."
+      },
+      "testimonial": {
+        "quote": "\u201cWith faster performance and optimized content, we are providing better online experiences for our educator members, and easier access to the tools and resources they need to enhance their careers and their lives.\u201d",
+        "author_name": "Vicki\u202fRodgers",
+        "author_title": "Manager, Member Benefits and Risk Management",
+        "author_company": "California Teachers Association Member Benefits"
+      },
+      "industry": "Nonprofit",
+      "business_model": "B2C",
+      "products": [
+        "XM Cloud",
+        "Search"
+      ],
+      "stack": [
+        "Sitecore360",
+        "Next.js",
+        "React",
+        "Microsoft Dynamics CRM"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/ctamb/ctamb-improves-online-experiences-for-educators-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/736888cf654b41e8bc079a42af27e9b3?v=31e10a84",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/5e4041cf0949498eae10380eab97e8c6?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000SCvlZ&d=%2Fa%2FUj0000050tEX%2FJ4j4k8rkiowIKhs67F4PU8FvDBMSPnoBI9Ei.j2924k",
+      "partner_url": "https://www.oshyn.com",
+      "product_ids": [
+        "xm-cloud",
+        "search"
+      ],
+      "stack_ids": [
+        "nextjs",
+        "react",
+        "ms-dynamics",
+        "azure"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Performance Improvement"
+        ],
+        "terms": [
+          "user experience",
+          "SEO",
+          "CMS",
+          "composable",
+          "headless"
+        ]
+      },
+      "persona": "Business"
+    },
+    {
+      "id": "velux-xx",
+      "content_type": "Customer Story",
+      "customer_name": "VELUX",
+      "title": "VELUX transforms digital customer engagement with Sitecore",
+      "overview": "Composable platform helps global window specialist deliver consistent, feature-rich digital experiences across 190 consumer, digital, and intranet sites.",
+      "project_brief": "To develop new digital touchpoints for customers and improve omnichannel experiences, VELUX decided to unify content and digital asset management using composable Sitecore solutions. The updated platform has improved digital customer engagement with rich new website features and better performance, while enabling faster updates.",
+      "stats": [
+        {
+          "label": "Faster and easier to publish rich media content on websites",
+          "value": "50%"
+        },
+        {
+          "label": "Increase in new site visits",
+          "value": "43%"
+        },
+        {
+          "label": "More efficient with automated web editing processes, faster site performance",
+          "value": "30%+"
+        },
+        {
+          "label": "Reusable components for consistent content creation",
+          "value": "40+"
+        },
+        {
+          "label": "Million site visits per year",
+          "value": "26.5"
+        }
+      ],
+      "challenge": {
+        "headline": "Developing new ways to engage with customers",
+        "text": "With customers everywhere now expecting brands to meet them wherever they want to do business, VELUX wants to be proactive in developing new ways to interact with its customers, provide personalized, visual, feature-rich experiences, and ensure the customer journey is consistent and seamless. Recognizing that a consolidated platform would improve the user experience for its 15 million annual visitors, simplify website management, and empower marketing and communication teams to be able to launch new content and updates faster, VELUX decided to bring together its previously disparate content and digital asset management systems."
+      },
+      "solution": {
+        "headline": "Composable foundations for 190 consumer, dealer, and intranet sites",
+        "text": "VELUX partnered with Avanade/Accenture to upgrade to a Sitecore-powered, headless, composable solution, including Sitecore Content Hub DAM with out-of-the-box integration to Sitecore Experience Manager (XM) using the Sitecore Connector. The unified digital platform supports 190-plus websites across 38 countries and 27 production units, including intranet and dealer sites. The new solution seamlessly integrates with the company\u2019s PIM system to ensure the integrity of product information, as well as other applications including its video streaming platform, Salesforce Experience Cloud for partner connections, SAP for enterprise resource planning and customer relationship management, and payment systems for PayPal and credit card providers. In addition to updating its customer-facing sites, VELUX has created a B2B platform on Sitecore so dealers and installers can easily view and access its products, and a customized intranet site that automatically manages prices for each geographical market."
+      },
+      "outcome": {
+        "headline": "Better customer experiences and faster time-to-market",
+        "text": "By moving to a composable approach powered by Sitecore, VELUX has transformed customer engagement. New website features include the ability to showcase products with compatible models, accessories, and specifications, centralized pricing updates, map integration, and greater location accuracy. Leveraging Sitecore Forms, VELUX manages around 70,000 online after-sales requests via its site annually. With Sitecore enabling a single source of truth for digital assets, product catalogs, and 40 reusable website templates, VELUX has also made it easier for marketers and sales associates to customize websites and generate local campaigns and news, with updates requiring 50% less effort. Automated web editing processes and enhanced site performance, including automated renditions and intelligent media components, have also helped VELUX improve efficiency by around 30%. The company has also improved the ways-of-working which lead to improvement in platform performance."
+      },
+      "testimonial": {
+        "quote": "Embarking on this composable architecture journey with Sitecore has brought VELUX value from the very first step. The seamless integration between our headless DAM and CMS combined with re-usable templates provide our marketers with the visibility, access, and ease-of-use to drive feature-rich content and engagement across the multi-channel customer journey.",
+        "author_name": "Ewa Ivarsson Heunicke",
+        "author_title": "Senior Manager of Web Digital Delivery",
+        "author_company": "VELUX"
+      },
+      "industry": "Manufacturing",
+      "business_model": "B2B",
+      "products": [
+        "XM",
+        "Content Hub"
+      ],
+      "stack": [
+        "Salesforce",
+        "SAP",
+        "PayPal"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/velux/velux-transforms-digital-customer-engagement-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/75b61c562f3e4a588f91eda8701e15f6?v=fe2b3513",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b02b33282e2d451aac8208e2c683ecfb?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=068Uj00000CaN5d&d=%2Fa%2FUj000004LNXC%2FZM_u.6ihXWliRkZjjOmSaoqj4UWNeQp8xWFRVHloWIg&asPdf=false",
+      "partner_url": "http://www.avanade.com/",
+      "product_ids": [
+        "xm",
+        "content-hub"
+      ],
+      "stack_ids": [
+        "salesforce",
+        "sap"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Time to Market / Efficiency",
+          "Performance Improvement",
+          "Operational Consolidation"
+        ],
+        "terms": [
+          "composable",
+          "DAM",
+          "integration",
+          "omnichannel",
+          "customer experience",
+          "user experience",
+          "content management",
+          "headless",
+          "customer journey",
+          "automation",
+          "CMS"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "nhp-03",
+      "content_type": "Customer Story",
+      "customer_name": "NHP",
+      "title": "NHP transforms customer engagement with Sitecore",
+      "overview": "By adopting Sitecore\u2019s composable solutions, electrical product manufacturer and distributor NHP enhances personalization, streamlines marketing operations, and delivers seamless customer experiences while boosting business growth.",
+      "project_brief": "With a diverse set of customers, electrical products manufacturer NHP wanted to tailor website content to better meet their needs. By adopting Sitecore\u2019s composable solutions, including Sitecore XM Cloud, Sitecore CDP, and Sitecore Personalize...",
+      "challenge": {
+        "headline": "Marketing to a diverse customer base",
+        "text": "NHP manufactures and distributes electrical and automation products... NHP needed a solution that would allow its digital marketers to easily update and manage website content without relying on developers for every change."
+      },
+      "solution": {
+        "headline": "Personalized online experiences that align with user needs",
+        "text": "NHP embraced a composable approach with Sitecore... migrating from Sitecore Experience Commerce (XC) to Sitecore XM Cloud for content management, Sitecore CDP to unify customer data, and Sitecore Personalize to deliver tailored content. The company is also transitioning from Sitecore Discover to Sitecore Search... and plans to integrate Sitecore OrderCloud."
+      },
+      "outcome": {
+        "headline": "More targeted campaigns boost customer experiences",
+        "text": "With Sitecore solutions, NHP is transforming customer experiences and boosting marketing success... With composable, cloud-based solutions, NHP has gained greater agility, while freeing up time previously spent on upgrades and maintenance."
+      },
+      "stats": [
+        {
+          "label": "Increase in ecommerce revenues in last financial year",
+          "value": "24%"
+        },
+        {
+          "label": "Product searches",
+          "value": "1.5\u202fM"
+        },
+        {
+          "label": "Customer visits per day",
+          "value": "2,000"
+        },
+        {
+          "label": "Active registered users",
+          "value": "9,000"
+        }
+      ],
+      "testimonial": {
+        "quote": "By leveraging Sitecore\u2019s composable solutions, we\u2019re creating personalized, frictionless experiences that boost customer satisfaction and business growth, while increasing operational efficiency.",
+        "author_name": "Robbie Attard",
+        "author_title": "IT Manager",
+        "author_company": "NHP"
+      },
+      "industry": "Manufacturing",
+      "business_model": "B2B",
+      "url": "https://www.sitecore.com/explore/customers/nhp/nhp-transforms-customer-engagement-with-sitecore",
+      "partner_url": null,
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/157a92ad65d24747bac32cb843a3fe2b?v=53bb5735",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/ce1644d2975c40a0b04af8136c5979db?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": false,
+      "partner_logo": null,
+      "product_ids": [
+        "xm-cloud",
+        "cdp",
+        "personalize",
+        "search",
+        "ordercloud"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement"
+        ],
+        "terms": [
+          "personalization",
+          "customer experience",
+          "customer data",
+          "campaign",
+          "content management"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "united-airlines-06",
+      "content_type": "Customer Award",
+      "customer_name": "United Airlines",
+      "title": "United Airlines delivers personalized travel experiences with Sitecore",
+      "overview": "Timely messaging and language personalization praised by English and Spanish speaking customers for making critical travel information more accessible.",
+      "project_brief": "To make critical travel information accessible to all, United Airlines provides translated and personalized boarding information for Spanish\u2011speaking customers with the help of Sitecore.",
+      "challenge": {
+        "headline": "Enhancing the customer experience",
+        "text": "The challenge was delivering variable, personalized content to thousands of digital signs across airports worldwide, enabling United Airlines to give its passengers the most advanced airport gate and end\u2011to\u2011end travel experience."
+      },
+      "solution": {
+        "headline": "Single source of truth",
+        "text": "...migrated its existing Sitecore DXP solution to a composable and headless cloud environment incorporating Sitecore XM Cloud, Sitecore CDP, and Sitecore Personalize, delivered through Vercel."
+      },
+      "outcome": {
+        "headline": "Resounding customer approval",
+        "text": "Improvements delivered on Sitecore\u2019s composable DXP, such as enhanced personalization and multilingual support, have received resounding approval from United Airlines customers."
+      },
+      "stats": [
+        {
+          "label": "CMS\u2019 consolidated onto one Sitecore platform",
+          "value": "9"
+        },
+        {
+          "label": "Sitecore-powered digital signs",
+          "value": "1,800"
+        },
+        {
+          "label": "Passengers interact with digital signage per year",
+          "value": ">35\u202fm"
+        },
+        {
+          "label": "Spanish-speaking customers eased experience",
+          "value": "82%"
+        },
+        {
+          "label": "English-speaking customers praise personalization",
+          "value": "66%"
+        }
+      ],
+      "testimonial": {
+        "quote": "Using Sitecore\u2019s composable technology has helped United Airlines improve the quality, content, and efficiency of information delivered to millions of customers with better gate, self\u2011service, and boarding experiences.",
+        "author_name": "Charlie Hong",
+        "author_title": "Product Owner, Digital Signage",
+        "author_company": "United Airlines"
+      },
+      "industry": "Travel and Hospitality",
+      "business_model": "B2C",
+      "products": [
+        "Sitecore XM Cloud",
+        "Sitecore CDP",
+        "Sitecore Personalize"
+      ],
+      "stack": [
+        "Vercel"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/united-airlines/united-airlines-delivers-82-percent-better-travel-experience-with-sitecore",
+      "partner_url": "https://www.americaneagle.com",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/2e1ff029192d4707851468181648142e?v=8e48dbbc",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/07fa7aef1e7041bca21f7cb944451afb?t=sc1600",
+      "has_video": true,
+      "video_url": "https://webinars.sitecore.com/64968576/111080423/74868dc1c3e7a18ef72eb9b1c99dfb91/video_hd/sitecore-digital-experience-8-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67",
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R5B9e&d=%2Fa%2FUj000002BC37%2FdcZQHV_jK03zAqqJUZgOraBF6C6yc52h42iSADEczG4&asPdf=false",
+      "product_ids": [
+        "xm-cloud",
+        "cdp",
+        "personalize"
+      ],
+      "stack_ids": [
+        "vercel"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement"
+        ],
+        "terms": [
+          "personalization",
+          "customer experience",
+          "CMS",
+          "DXP",
+          "composable"
+        ]
+      },
+      "persona": "Business"
+    },
+    {
+      "id": "acrisure-08",
+      "content_type": "Customer Award",
+      "customer_name": "Acrisure",
+      "title": "Acrisure boosts direct\u2011to\u2011consumer business with Sitecore",
+      "overview": "Leading insurer supports expansion into direct\u2011to\u2011consumer market with unified, flexible, and scalable digital experience platform built on Sitecore.",
+      "project_brief": "Acrisure is a leading global fintech... needed a CMS that could support Acrisure\u2019s technology strategy for building a best\u2011in\u2011class Digital Marketplace. To accomplish this... Acrisure\u2019s migration from its legacy platform to Sitecore XM Cloud...",
+      "stats": [
+        {
+          "label": "Reduced time to market",
+          "value": "60%"
+        },
+        {
+          "label": "Time to build new site",
+          "value": "4\u202fmonths"
+        },
+        {
+          "label": "Faster page loading speed",
+          "value": "100%"
+        },
+        {
+          "label": "Higher Google Lighthouse score",
+          "value": "40%"
+        },
+        {
+          "label": "Improvement in SEO score",
+          "value": "2X"
+        }
+      ],
+      "challenge": {
+        "headline": "Driving the direct\u2011to\u2011consumer strategy",
+        "text": "Acrisure recognized that to engage effectively with consumers, it must offer seamless and personalized digital experiences. Acrisure needed a platform to integrate its internal AI capabilities and streamline content creation to deliver relevant, contextual, and personalized experiences that deepen user engagement."
+      },
+      "solution": {
+        "headline": "Scalable and flexible digital foundations",
+        "text": "Acrisure built its new consumer\u2011focused website on Sitecore XM Cloud, leveraging Sitecore\u2019s composable, dynamic, and scalable architecture. By also integrating Sitecore Personalize... Sitecore\u2019s modern experience platform also seamlessly integrates with Acrisure\u2019s other digital models and AI technologies, including its Google Cloud Platform..."
+      },
+      "outcome": {
+        "headline": "Seamless consumer and user engagement",
+        "text": "Launched in just four months, Acrisure's new website brings its engagement strategy to life with a compelling brand story, seamless user experiences, and personalized customer journeys."
+      },
+      "testimonial": {
+        "quote": "Sitecore's advanced digital experience capabilities showcase Acrisure\u2019s fintech innovations and are expanding our abilities to provide personalized user experiences that deliver the products and solutions that serve the holistic needs of our clients.",
+        "author_name": "Charnjiv Brar",
+        "author_title": "Digital Platform Director",
+        "author_company": "Acrisure"
+      },
+      "industry": "Financial Services",
+      "business_model": "Both",
+      "products": [
+        "XM Cloud",
+        "Personalize"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/acrisure/acrisure-grows-direct-to-consumer-business-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/4b1016c47fbb45c69beb49029993ecd1?v=0cfa1552",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/fb0d1d6cdfd04ddf9fe446a8919df7fa?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": false,
+      "partner_logo": null,
+      "partner_url": null,
+      "product_ids": [
+        "xm-cloud",
+        "personalize"
+      ],
+      "stack_ids": [
+        "gcp"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "customer journey",
+          "user experience",
+          "SEO",
+          "composable",
+          "cloud"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "general-assembly-02",
+      "content_type": "Case Study",
+      "customer_name": "General Assembly",
+      "title": "Sitecore helps General Assembly revolutionize online education experience to boost site performance",
+      "overview": "Global upskilling, reskilling and talent provider uses Sitecore XM Cloud to drive 3x more visitor-to-lead conversions.",
+      "project_brief": "General Assembly is a global organization delivering advanced technology learning... Building upon that success, General Assembly has migrated to a composable Sitecore XM Cloud platform...",
+      "challenge": {
+        "headline": "Meeting learner needs",
+        "text": "With a global presence, GA needed to better meet the needs of its learners, company partners, and employees. This required an updated technology stack and a refreshed UX..."
+      },
+      "solution": {
+        "headline": "Modern composable DXP",
+        "text": "...built a modern, composable digital experience platform using Sitecore XM Cloud... Sitecore XM Cloud integrates with Vercel as the front\u2011end host and connects with General Assembly\u2019s existing DAM, Bynder, and Google Analytics applications. A key Sitecore integration is GA\u2019s Salesforce CRM..."
+      },
+      "outcome": {
+        "headline": "Sustainable, scalable future growth",
+        "text": "With the Sitecore\u2011powered modern SaaS\u2011based composable DXP in place, General Assembly has enhanced user experiences, improved operational efficiency, and positioned itself for sustainable, scalable future growth."
+      },
+      "stats": [
+        {
+          "label": "Higher visitor-to-lead conversion rate",
+          "value": "3x"
+        },
+        {
+          "label": "Increase in paid search click-to-lead conversions",
+          "value": "43%"
+        },
+        {
+          "label": "Organic traffic above max projections",
+          "value": "25%"
+        },
+        {
+          "label": "Faster back-end updates",
+          "value": "1 day from weeks"
+        },
+        {
+          "label": "Faster page load speed (Google Lighthouse)",
+          "value": "12.5%"
+        }
+      ],
+      "testimonial": {
+        "quote": "The move to Sitecore and the related UX updates have vastly improved our ability to be agile and flexible to meet the needs of our business and our customers.",
+        "author_name": "Jourdan Hathaway",
+        "author_title": "Chief Marketing Officer",
+        "author_company": "General Assembly"
+      },
+      "industry": "Education",
+      "business_model": "Both",
+      "url": "https://www.sitecore.com/explore/customers/general-assembly/sitecore-helps-general-assembly-revolutionize-online-education-experience",
+      "partner_url": "https://www.merkle.com",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/19b5bb1c85e24fbab89af6b7a10b0b77?v=96e0e259",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/a83d94cd2ed642a3bc95e3d0548ec397?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R60Tx&d=%2Fa%2FUj000003oAVV%2FnfnatCvRh4NOU5V6BcO.jpOvzoa.AESrCgjHEf37_FA&asPdf=false",
+      "product_ids": [
+        "xm-cloud"
+      ],
+      "stack_ids": [
+        "salesforce",
+        "vercel",
+        "bynder"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Performance Improvement",
+          "Revenue Growth"
+        ],
+        "terms": [
+          "user experience",
+          "analytics",
+          "DAM",
+          "DXP",
+          "integration"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "atkore-13",
+      "content_type": "Customer Award",
+      "customer_name": "Atkore",
+      "title": "Atkore delivers connected customer experiences with Sitecore XM Cloud",
+      "overview": "US manufacturer transforms online experiences with a composable solution for centralized content management, seamless digital asset management, and future\u2011proof headless commerce.",
+      "project_brief": "To deliver a more consistent and connected online experience, the company consolidated 27 brand websites into one using a composable Sitecore XM Cloud and Content Hub implementation.",
+      "stats": [
+        {
+          "label": "Brand\u2011specific websites consolidated",
+          "value": "27"
+        },
+        {
+          "label": "Faster performance",
+          "value": "5\u00d7"
+        },
+        {
+          "label": "Minutes to deploy new content",
+          "value": "5\u202fminutes"
+        },
+        {
+          "label": "Pages now load within one second",
+          "value": "90%"
+        }
+      ],
+      "challenge": {
+        "headline": "Bringing together disparate brands and websites",
+        "text": "Atkore had more than 27 brands, each of which had its own website, tech stacks and vendors\u2014creating silos and inconsistent customer experiences. The company needed a unified, cloud\u2011first platform to consolidate operations and drive digital efficiency."
+      },
+      "solution": {
+        "headline": "A unified, composable approach",
+        "text": "In partnership with Sitecore, Atkore implemented XM Cloud for centralized content management and Content Hub DAM for asset and product content integration. They also began using OrderCloud to add headless commerce functionality in phase two."
+      },
+      "outcome": {
+        "headline": "A connected, efficient platform",
+        "text": "Atkore consolidated 27 sites into one, achieved 5\u00d7 faster performance vs legacy systems, reduced content deployment times to five minutes, and 90% of pages now load in under one second."
+      },
+      "testimonial": {
+        "quote": "\u201cWith composable digital foundations built on Sitecore XM Cloud, Content Hub DAM, and OrderCloud, we\u2019ve been able to consolidate our brands, products, and resources in a connected web platform that delivers better online experiences for our customers.\u201d",
+        "author_name": "Venkat Pethari",
+        "author_title": "Director IT, Digital Experience",
+        "author_company": "Atkore"
+      },
+      "industry": "Manufacturing",
+      "business_model": "B2B",
+      "products": [
+        "XM Cloud",
+        "Content Hub",
+        "OrderCloud"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/atkore/atkore-delivers-connected-customer-experiences-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/4a7b290eec094d3c988f929765e4a6dc?v=b1db34d5",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/26389b538e0248c9a51e385f1b9c692d?t=sc1600",
+      "has_video": true,
+      "video_url": "http://webinars.sitecore.com/sitecore-customer-story-atkore",
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=068Uj00000FJaLi&d=%2Fa%2FUj0000027WbV%2FjmJEw6GDBARf85T1Dli47Mz6Es.Lz6JTrmvTReiV0HY",
+      "partner_url": "https://www.tcs.com/",
+      "product_ids": [
+        "xm-cloud",
+        "content-hub",
+        "ordercloud"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Performance Improvement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "customer experience",
+          "content management",
+          "DAM",
+          "integration",
+          "composable"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "bdr-thermea-12",
+      "content_type": "Customer Award",
+      "customer_name": "BDR Thermea Group",
+      "title": "BDR Thermea boosts productivity eight\u2011fold with composable Sitecore solutions",
+      "overview": "Composable Sitecore solutions increase digital efficiency and business agility for BDR Thermea Group.",
+      "project_brief": "As part of its shift toward energy\u2011transition-focused digital strategy, BDR\u202fThermea adopted a composable Sitecore approach to centralize digital operations and future\u2011proof its web estate.",
+      "stats": [
+        {
+          "label": "Increase in productivity",
+          "value": "790%"
+        },
+        {
+          "label": "Greater back\u2011office performance",
+          "value": "50%"
+        },
+        {
+          "label": "More new site visits",
+          "value": "43%"
+        },
+        {
+          "label": "Annual savings",
+          "value": "\u20ac500k"
+        },
+        {
+          "label": "Improvement in mobile page load speeds",
+          "value": "390%"
+        },
+        {
+          "label": "Number of websites centralized",
+          "value": "20"
+        }
+      ],
+      "challenge": {
+        "headline": "Supporting the energy transition",
+        "text": "With 20 brands and heavily customized legacy sites, BDR\u202fThermea needed a more agile and flexible web platform to support its transition to energy\u2011efficient HVAC solutions and shift from B2B2C to B2B partner models."
+      },
+      "solution": {
+        "headline": "Centralizing websites with a composable approach",
+        "text": "In partnership with Avanade and Accenture Song, BDR\u202fThermea deployed Sitecore XM Cloud and OrderCloud... laying the foundation for future personalization, e\u2011commerce, and generative AI."
+      },
+      "outcome": {
+        "headline": "Maximizing productivity and performance",
+        "text": "The composable platform led to a 790% increase in productivity, 50% boost in back\u2011office performance, \u20ac500k annual savings, 390% faster mobile speeds, and a 43% rise in new site visits."
+      },
+      "testimonial": {
+        "quote": "\"The first benefits we've seen with using XM Cloud are around the speed \u2013 an update that used to take a day now takes just an hour. This eight\u2011fold increase in efficiency will help us pivot the business as we support the energy transition.\"",
+        "author_name": "Matt Allmark",
+        "author_title": "Marketing Manager, Product Owner & Digital Strategy Lead",
+        "author_company": "BDR Thermea Group"
+      },
+      "industry": "Manufacturing",
+      "business_model": "B2B",
+      "products": [
+        "XM Cloud",
+        "OrderCloud"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/bdr/bdr-thermea-boosts-productivity-eight-fold-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/e34c7071b8634e77935358e304b8b645?v=bf99b44a",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/627979c2eb7f4d1b8f7a43d0bfc49bdb?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=068Uj00000CaN5d&d=%2Fa%2FUj000004LNXC%2FZM_u.6ihXWliRkZjjOmSaoqj4UWNeQp8xWFRVHloWIg",
+      "partner_url": "http://www.avanade.com/",
+      "product_ids": [
+        "xm-cloud",
+        "ordercloud"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Performance Improvement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "personalization",
+          "composable",
+          "cloud"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "oneok-15",
+      "content_type": "Customer Award",
+      "customer_name": "ONEOK",
+      "title": "ONEOK boosts digital agility and user experiences with Sitecore",
+      "overview": "ONEOK, a leading energy infrastructure company, migrated to a composable Sitecore XM Cloud and Search platform, improving site performance, user experience, and content management efficiency.",
+      "project_brief": "The result was a migration to a composable, future-proof architecture built on Sitecore XM Cloud and Sitecore Search, enabling improved site performance, user experience, and faster content deployment.",
+      "stats": [
+        {
+          "label": "Faster publishing times",
+          "value": "30%"
+        },
+        {
+          "label": "Increased marketing productivity",
+          "value": "25%"
+        },
+        {
+          "label": "Google Lighthouse score",
+          "value": "95%+"
+        }
+      ],
+      "challenge": {
+        "headline": "Support acquisition integration",
+        "text": "Legacy, unsupported technologies led to high infrastructure costs, long deployment times, and poor content agility."
+      },
+      "solution": {
+        "headline": "A seamless migration to a future\u2011proof web environment",
+        "text": "In partnership with Perficient, ONEOK migrated from Sitecore XP to XM Cloud and added Sitecore Search, redesigned the main landing page... and built the site on Next.js hosted via Vercel, with Telerik React components for data visualization."
+      },
+      "outcome": {
+        "headline": "Greater agility with faster website updates",
+        "text": "The new platform delivers improved user experience and site performance (Lighthouse in the upper 90s), faster content publishing, reduced infrastructure costs, and increased marketing productivity and compliance efficiency."
+      },
+      "testimonial": {
+        "quote": "Site performance has improved significantly since we completed the rebuild and migration to Sitecore XM Cloud. XM Cloud\u2019s new authoring experience and tools provide more agility to the content team...",
+        "author_name": "Baskaran Susaimanickam",
+        "author_title": "Director, Information Technology, Commercial Applications",
+        "author_company": "ONEOK"
+      },
+      "industry": "Mining, Oils and Gas",
+      "business_model": "B2B",
+      "products": [
+        "XM Cloud",
+        "Search",
+        "XP"
+      ],
+      "stack": [
+        "Sitecore360",
+        "Vercel",
+        "Next.js"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/oneok/oneok-boosts-digital-agility-and-user-experiences-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/17ae2c1470914255bf5ea1fd720c627a?v=c44b466c",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/9acd131cf24043638288e8db69bdb05a?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000SDDoZ&d=%2Fa%2FUj000000hV3l%2FNlW0eAWO3V.S8TxawWYVHYOI9bYgvZhtr.QA51oJivY",
+      "partner_url": "https://www.perficient.com/who-we-are/partners/sitecore",
+      "product_ids": [
+        "xm-cloud",
+        "search",
+        "xp"
+      ],
+      "stack_ids": [
+        "vercel",
+        "nextjs"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Performance Improvement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "user experience",
+          "content management",
+          "integration",
+          "composable",
+          "cloud"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "bru-textiles-16",
+      "content_type": "Customer Story",
+      "customer_name": "Bru Textiles",
+      "title": "Manufacturer cuts digital marketing cost by 15% over 5 years with Sitecore",
+      "overview": "Belgian manufacturer cuts digital marketing and cloud project costs by 15% over five years by migrating to Sitecore XM Cloud and Sitecore360.",
+      "project_brief": "The business is constantly innovating and refreshing content for 12 branded websites built and managed on Sitecore XM Cloud... the work to present beautiful images and content in multiple languages and conduct detailed customer experience analysis is done entirely by the in\u2011house team...",
+      "stats": [
+        {
+          "label": "Cut in cloud & web project costs",
+          "value": "20%"
+        },
+        {
+          "label": "Improvement in digital tech learning time",
+          "value": "30%"
+        },
+        {
+          "label": "Time to launch multilingual Asian site",
+          "value": "3\u202fweeks"
+        },
+        {
+          "label": "Branded websites managed",
+          "value": "12"
+        },
+        {
+          "label": "Digital marketing cost reduction",
+          "value": "15%"
+        }
+      ],
+      "challenge": {
+        "headline": "Marketing textiles digitally",
+        "text": "To reduce costs, retain control and exercise consistency Bru wanted to bring all digital activity in\u2011house. But with a small team and a large and complex digital footprint that was challenging."
+      },
+      "solution": {
+        "headline": "Maximizing the value of cloud",
+        "text": "Bru shifted its Sitecore platform to the cloud by upgrading to Sitecore XM Cloud... They engaged Sitecore360 for expert workshops, training, and cloud\u2011migration guidance. This reduced learning time by 30% and enabled advanced capabilities like visual authoring, personalization, and analytics."
+      },
+      "outcome": {
+        "headline": "Shortening time to market",
+        "text": "With Sitecore XM Cloud and Sitecore360, Bru\u2019s in\u2011house team now manages and customizes the platform independently. They launched the Acacia Fabrics multilingual site in just three weeks, estimate 20% cost savings on cloud and web projects, and achieved 15% digital marketing cost reductions over five years."
+      },
+      "testimonial": {
+        "quote": "By migrating from Sitecore on\u2011premises to Sitecore XM Cloud with Sitecore360, Bru Textiles is maintaining our high\u2011quality digital marketing project standards, as well as optimized our team\u2019s web development capabilities and ensured a seamless cloud implementation.",
+        "author_name": "Tom Stevens",
+        "author_title": "Head of Marketing",
+        "author_company": "Bru Textiles"
+      },
+      "industry": "Manufacturing",
+      "business_model": "B2B",
+      "products": [
+        "XM Cloud"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/bru-textiles/manufacturer-cuts-digital-marketing-cost-by-15-percent-over-5-years-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/19b5ef95beda4eb9be68978885257ac6?v=939c40c7",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/5739f622b5ca4e02a7424a81e8038625?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": false,
+      "partner_logo": null,
+      "partner_url": null,
+      "product_ids": [
+        "xm-cloud"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "personalization",
+          "digital marketing",
+          "analytics",
+          "cloud"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "sparebanken-vest-19",
+      "content_type": "Customer Story",
+      "customer_name": "Sparebanken Vest",
+      "title": "Norwegian bank drives up productivity by 80% with Sitecore XM Cloud",
+      "overview": "Sparebanken Vest improved digital and self\u2011service banking experiences using Sitecore XM Cloud\u2019s flexible, scalable platform, boosting efficiency and customer satisfaction.",
+      "project_brief": "Sparebanken Vest... migrated its DXP from Sitecore XP to XM Cloud to modernize its digital services ecosystem... The move supported greater agility for cloud and SaaS\u2011based banking applications.",
+      "stats": [
+        {
+          "label": "Increase in productivity and efficiency",
+          "value": "80%"
+        },
+        {
+          "label": "Time to deliver front\u2011end code",
+          "value": "5\u202fminutes (down from 40)"
+        },
+        {
+          "label": "Google Lighthouse score",
+          "value": "Upper\u202f90s"
+        }
+      ],
+      "challenge": {
+        "headline": "Driving up digital engagement",
+        "text": "Its legacy Sitecore XP site was complex, costly to manage, and lacked agility to deliver new digital services efficiently."
+      },
+      "solution": {
+        "headline": "Seamless migration to a composable SaaS DXP",
+        "text": "In partnership with Sitecore, their IT team migrated their digital experience platform from XP to Sitecore XM Cloud SaaS, introducing composable architecture, modern development workflows, and scalable infrastructure..."
+      },
+      "outcome": {
+        "headline": "Enhanced efficiency and customer satisfaction",
+        "text": "Post\u2011migration, Sparebanken Vest saw an 80% boost in operational efficiency... and improved search rankings and Net Promoter Scores."
+      },
+      "testimonial": {
+        "quote": "\u201cSitecore XM Cloud gives Sparebanken Vest a modern, flexible, and scalable platform to deliver digital and customer self\u2011serve banking applications and services.\u201d",
+        "author_name": "Espen Vigeland",
+        "author_title": "Product Owner",
+        "author_company": "Sparebanken Vest"
+      },
+      "industry": "Financial Services",
+      "business_model": "Both",
+      "products": [
+        "XM Cloud",
+        "XP"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/sparebanken-vest/norwegian-bank-drives-up-productivity-by-80-percent-with-sitecore-xm-cloud",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/9bb41a8e8ca040c8801439291e28a48d?v=deb719f1",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b27fc385c4ca4315a8e10349ef96ca34?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": false,
+      "partner_logo": null,
+      "partner_url": null,
+      "product_ids": [
+        "xm-cloud",
+        "xp"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "DXP",
+          "composable",
+          "composable architecture",
+          "SaaS",
+          "cloud"
+        ]
+      },
+      "persona": "Business"
+    },
+    {
+      "id": "healthhub-xx",
+      "content_type": "Customer Story",
+      "customer_name": "HealthHub",
+      "title": "HealthHub improves visitor time on site with Sitecore",
+      "overview": "Singapore's national healthtech platform, HealthHub, powered by Synapxe, improved digital content discovery and user experience, increasing visitor time on site and search engine traffic, by adopting Sitecore's modern, scalable Digital Experience Platform (DXP).",
+      "project_brief": "HealthHub, Singapore's national healthtech platform powered by Synapxe, migrated to the Sitecore DXP, including Sitecore Content Hub DAM, Sitecore Content Hub Operations, Sitecore Managed Cloud, and Sitecore Experience Platform (XP), to deliver more relevant and personalized health content, streamline content creation, and facilitate seamless content sharing.",
+      "stats": [
+        {
+          "label": "Increase in time on site",
+          "value": "16%"
+        },
+        {
+          "label": "Increase in search engine traffic",
+          "value": "75%"
+        }
+      ],
+      "challenge": {
+        "headline": "Legacy CMS hindering personalization and scalability",
+        "text": "HealthHub's legacy content management system presented opportunities for improvement in information architecture. The Synapxe HealthHub team sought a modern, scalable, secure, and flexible Digital Experience Platform (DXP) to meet the needs of content creators and deliver personalized experiences to residents at scale."
+      },
+      "solution": {
+        "headline": "Migration to Sitecore DXP for personalized content and streamlined operations",
+        "text": "HealthHub, in collaboration with Sitecore and VML Singapore, migrated to the Sitecore DXP, implementing Sitecore Content Hub DAM, Sitecore Content Hub Operations, Sitecore Managed Cloud, and Sitecore Experience Platform (XP). This enabled personalized health content delivery, streamlined content creation and publishing, and seamless content sharing. Integration of data analytics and SEO intelligence tools further optimized customer journeys."
+      },
+      "outcome": {
+        "headline": "Improved user engagement and content discoverability",
+        "text": "Since deploying the Sitecore DXP, HealthHub has seen residents spending up to 16% more time on the website and search engine traffic increasing by 75%. These results indicate improved content discoverability and public traction, enhancing just-in-time content discovery."
+      },
+      "testimonial": {
+        "quote": "HealthHub leverages Sitecore to elevate health content discovery and improve citizens' digital health literacy, aiming to become the digital partner of choice for residents on their health journey by fusing data and content for personalized, omnichannel experiences.",
+        "author_name": "Michael Su",
+        "author_title": "Deputy Director",
+        "author_company": "Synapxe"
+      },
+      "industry": "Healthcare and Life Sciences",
+      "business_model": "B2C",
+      "products": [
+        "Content Hub",
+        "Managed Cloud",
+        "XP"
+      ],
+      "stack": [
+        "Synapxe"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/healthhub/healthhub-improves-visitor-time-on-site-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/e3b01a73b6164a7dbe5be356636e88c2?v=f61d61e5",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/beafb73075fc43b0b4bd91054506da4d?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=068Uj000006FV53&d=%2Fa%2FUj000003Uaif%2Fba4vZF3kiP3Z8dVg9K._Q4C8C_YLRVNr54F1simWHgc&asPdf=false",
+      "partner_url": "http://www.vml.com/",
+      "product_ids": [
+        "content-hub",
+        "managed-cloud",
+        "experience-platform"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Performance Improvement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "content management",
+          "user experience",
+          "DXP",
+          "personalization",
+          "cloud",
+          "DAM",
+          "SEO",
+          "analytics",
+          "omnichannel"
+        ]
+      },
+      "persona": "Business"
+    },
+    {
+      "id": "joyce-meyer-ministries-story-28",
+      "content_type": "Customer Story",
+      "customer_name": "Joyce Meyer Ministries",
+      "title": "Joyce Meyer Ministries accelerates innovation with headless commerce",
+      "overview": "Non-profit",
+      "project_brief": "Joyce Meyer Ministries (JMM), a leading provider of religious and motivational resources, recognized the need to modernize its ecommerce platform to better serve its growing and diverse customer base. They struggled with their legacy ecommerce system, which created limitations around customization, slow performance, outdated search functionality, and a lack of scalability. To address these challenges, JMM migrated to OrderCloud, a headless commerce solution they knew would provide greater flexibility to meet their diverse business needs, deliver improved performance, enhance search capabilities, and enable future growth.",
+      "stats": [
+        {
+          "label": "Reduction in page response time - from 1.5 seconds average to below 500ms",
+          "value": "66%"
+        },
+        {
+          "label": "Improvement in time to release new product content and catalog features",
+          "value": "88%"
+        },
+        {
+          "label": "Increased efficiencies",
+          "value": "300%"
+        },
+        {
+          "label": "Reduction in hosting costs",
+          "value": "> 60%"
+        }
+      ],
+      "challenge": {
+        "headline": "Outdated ecommerce platform blocking growth",
+        "text": "JMM, a leading faith-based organization, offers an extensive range of products and services, including donations, books, teachings, and exclusive bundles for millions of supporters. JMM faced significant challenges with their traditional ecommerce platform. The rigid system hindered UI customization and innovation, limiting the ability to meet customer expectations. Outdated search functionality made it hard for users to find relevant products, negatively impacting sales. Additionally, slow loading times caused by heavy content, large catalogs, and complex inventory management led to poor user experiences, higher bounce rates, and lower conversions. To support future growth, JMM required a scalable, flexible platform that could adapt to evolving business needs."
+      },
+      "solution": {
+        "headline": "Gaining flexibility and scalability with headless commerce",
+        "text": "JMM adopted OrderCloud, an API-first, headless commerce platform, which provided the flexibility, scalability, and performance improvements needed to modernize their ecommerce operations. This flexible platform enabled the team to quickly and easily customize the user interface, and deliver tailored shopping experiences. Additionaly, the team was able to build their own internal administrative interface for JMM marketers and business users to easily manage products, coupons, promotions, offers and more, making the whole team\u2019s job easier. OrderCloud helped to optimize page load speeds through better content delivery, image optimization, and caching strategies, improving the user experience, reducing bounce rates and boosting overall site engagement. Also, a new advanced search feature that combined content and product data was implemented, allowing customers to easily find products through personalized search results and relevant product recommendations."
+      },
+      "outcome": {
+        "headline": "Achieving their goals within the first week",
+        "text": "The shift to OrderCloud delivered significant improvements for JMM. Website performance soared with a 99% Lighthouse score indicating faster load times and a smoother user experience. The headless architecture allowed for a complete overhaul of the UI/UX, creating a modern, user-friendly design that better aligned with the company\u2019s business needs and improved the customer experience, while the new search functionality provided more relevant, personalized product recommendations, improving overall conversion rates. Transitioning to a composable architecture has also streamlined feature development, simplified content and catalog management, and cut content release times from nearly an hour to just 7 minutes. Managing global ecommerce products and pricing with multiple currency types, inventory counts, catalogs and more has also been streamlined. The platform\u2019s flexibility and scalability allows JMM to seamlessly intregrate third-party services and new tools with low-code changes, adapting to new business needs. Sitecore has opened the door for future enhancements, including personalization, automation, positioning JMM for continued growth and success."
+      },
+      "testimonial": {
+        "quote": "The joint effort with the Sitecore team from the beginning of the project through go live made it go smoothly. Our metrics within the first week were meeting all of our goals. We now have a very fast and modern-looking web/app presence that will allow us to continue to deliver our message to share Christ and help people around the world for the foreseeable future.",
+        "author_name": "Robert Sanabria",
+        "author_title": "Chief Information Officer",
+        "author_company": "Joyce Meyer Ministries"
+      },
+      "industry": "Nonprofit",
+      "business_model": "B2C",
+      "products": [
+        "OrderCloud",
+        "Search",
+        "XM"
+      ],
+      "stack": [],
+      "url": "https://www.sitecore.com/explore/customers/joyce-meyer-ministries/joyce-meyer-ministries-accelerates-innovation-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/7e16f10cb19748828ef505ce8b29481f?v=ff28731e",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/5401e29918564e38b8506a2f451c6915?t=sc1600",
+      "has_video": false,
+      "video_url": "",
+      "has_partner": false,
+      "partner_logo": "",
+      "partner_url": "",
+      "product_ids": [
+        "ordercloud",
+        "search",
+        "xm"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Operational Consolidation",
+          "Performance Improvement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "personalization",
+          "customer experience",
+          "user experience",
+          "API",
+          "composable"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "wago-17",
+      "content_type": "Customer Story",
+      "customer_name": "WAGO",
+      "title": "Global manufacturer increases marketing productivity with Sitecore",
+      "overview": "Composable solution from Sitecore helps electronics and automation manufacturer WAGO automate 150+ annual marketing campaigns for estimated 15% faster delivery.",
+      "project_brief": "By introducing a centralized single source of truth, WAGO has driven up overall productivity and improved content delivery, including speeding time-to-market for more than 150 marketing campaigns per year by approximately 15%.",
+      "stats": [
+        {
+          "label": "Campaign types aggregated",
+          "value": "7"
+        },
+        {
+          "label": "Faster time\u2011to\u2011market",
+          "value": "15%"
+        },
+        {
+          "label": "Digital platforms consolidated",
+          "value": "4"
+        },
+        {
+          "label": "Products\u2019 content managed",
+          "value": "30,000"
+        },
+        {
+          "label": "Annual campaigns",
+          "value": ">150"
+        },
+        {
+          "label": "Digital assets managed",
+          "value": "100k+"
+        }
+      ],
+      "challenge": {
+        "headline": "Smarter content management",
+        "text": "With teams and systems technically disconnected, WAGO\u2019s marketers struggled to manage content and campaigns across siloed systems, causing inefficiencies and errors in digital assets and information."
+      },
+      "solution": {
+        "headline": "Centralized, automated content and asset processes",
+        "text": "Working with partner OMMAX, WAGO deployed Sitecore Content Hub DAM and Content Hub Operations, replacing four systems with one centralized platform managing 30,000 products and over 100,000 digital assets."
+      },
+      "outcome": {
+        "headline": "Lean, efficient marketing",
+        "text": "By automating 150+ campaigns, WAGO achieved ~15% faster time\u2011to\u2011market, improved content quality and collaboration, and operational efficiency via a centralized source of truth."
+      },
+      "testimonial": {
+        "quote": "\u201cSitecore's solution has automated the management of our increasing volume of content and assets as the company continues to grow, improving operational efficiency, and strengthening team collaboration. We now have a clear view of all the various campaigns and topics that we design, engineer, and deploy\u2014in Content Hub.\u201d",
+        "author_name": "Thomas Brandst\u00e4tter",
+        "author_title": "Head of Product Experience Management",
+        "author_company": "WAGO"
+      },
+      "industry": "Manufacturing",
+      "business_model": "B2B",
+      "products": [
+        "Content Hub"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/wago/global-manufacturer-increases-marketing-productivity-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/1580588ae3c84735a69326f5c03cf0c1?v=2e39a372",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/9c3677ad6c164273a086efcc3684e3d5?t=sc1600",
+      "has_video": true,
+      "video_url": "http://webinars.sitecore.com/sitecore-wago-interview",
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R6sCk&d=%2Fa%2FUj000003p2Z7%2FDBzErGT.76Hx84ZZYTum8ev3oAZwVNMMuz4x9ocVAEU",
+      "partner_url": "https://www.ommax-digital.com/",
+      "product_ids": [
+        "content-hub"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Operational Consolidation"
+        ],
+        "terms": [
+          "campaign",
+          "content management",
+          "DAM",
+          "composable"
+        ]
+      },
+      "persona": "Business"
+    },
+    {
+      "id": "beyond-blue-14",
+      "content_type": "Case Study",
+      "customer_name": "Beyond Blue",
+      "title": "Beyond Blue drives up engagement by 50% with Sitecore",
+      "overview": "Australian mental health not-for-profit boosts engagement, mobile access, site performance, and new inquiries through a modern Sitecore XM Cloud experience.",
+      "stats": [
+        {
+          "label": "Engagement with Wellbeing Action Tool",
+          "value": "50%"
+        },
+        {
+          "label": "First\u2011time site visitors",
+          "value": "35%"
+        },
+        {
+          "label": "New inquiries for help and support",
+          "value": "40%"
+        },
+        {
+          "label": "Mobile Lighthouse accessibility score",
+          "value": "91/100"
+        },
+        {
+          "label": "Best\u2011practice Lighthouse score",
+          "value": "93/100"
+        },
+        {
+          "label": "SEO Lighthouse score",
+          "value": "100/100"
+        },
+        {
+          "label": "Faster page loads",
+          "value": "6x"
+        }
+      ],
+      "project_brief": "Beyond Blue has developed a modern digital experience platform (DXP) based on Sitecore to expand and improve the use of advanced digital communication facilities...",
+      "challenge": {
+        "headline": "Making health care digital",
+        "text": "The existing platform had reached its end\u2011of\u2011life and was costly and difficult to support and maintain... the platform\u2019s inability to support deployment of new digital channels hindered Beyond Blue\u2019s strategy..."
+      },
+      "solution": {
+        "headline": "A scalable, secure solution",
+        "text": "In collaboration with Sitecore and Sitecore partner Luminary, Beyond Blue migrated to the cloud\u2011based Sitecore DXP for scalability, security, scope for future omnichannel content delivery, and the ability to facilitate a microservices architecture approach... The new digital experience platform offers improved search functionality... personalization and more robust data management."
+      },
+      "outcome": {
+        "headline": "Driving up engagement",
+        "text": "The Sitecore digital experience platform has seen a significant uplift in engagement from people seeking help from Beyond Blue. The Wellbeing Action Tool, a self\u2011help guide and template, has seen engagement increase by 50%."
+      },
+      "testimonial": {
+        "quote": "\"Clear alignment around the objectives of the project, the deep emotional connection to the work that Beyond Blue does... it looked a little tenuous, but we\u2019ve got this, and everyone did.\"",
+        "author_name": "Susan Kelso",
+        "author_title": "Chief Experience Officer",
+        "author_company": "Beyond Blue"
+      },
+      "industry": "Healthcare and Life Sciences",
+      "business_model": "B2C",
+      "products": [
+        "Search",
+        "XM Cloud",
+        "XP"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/beyond-blue/beyond-blue-drives-up-engagement-by-50-percent-with-sitecore",
+      "partner_url": "https://www.luminary.com/",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/64fa3ec84f2f42239f7e503d62ed6441?v=26b88022",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/94c96829773a426ea1edd7300ed93a90?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R4wvB&d=%2Fa%2FHu000000J3s2%2FCtTEy5BTgkEQt8xCFxsg7VsMLBICVh8hNuaCG1OF6Xg&asPdf=false",
+      "product_ids": [
+        "search",
+        "xm-cloud",
+        "xp"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Operational Consolidation",
+          "Performance Improvement"
+        ],
+        "terms": [
+          "personalization",
+          "omnichannel",
+          "SEO",
+          "DXP",
+          "microservices"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "pointb-04",
+      "content_type": "Case Study",
+      "customer_name": "Point B",
+      "title": "Consultancy drives up customer engagement and revenue opportunities with Sitecore",
+      "overview": "A Forbes best American consultancy, Point B is disrupting the market with a Sitecore DXP that improves content access and personalization by 100%.",
+      "project_brief": "Point B... is challenging larger, established firms with a Sitecore DXP that is increasing brand awareness, driving up customer engagement, and fostering lead generation and revenue\u2011growth opportunities.",
+      "challenge": {
+        "headline": "A Forbes best consultancy",
+        "text": "Point B\u2019s business operations had been stifled by an outdated and custom-built website that was complex to manage... The aim was to communicate and differentiate the Point B brand, build trust with buyers... and increase lead generation."
+      },
+      "solution": {
+        "headline": "Headless, composable SaaS DXP",
+        "text": "...developed a headless, composable SaaS digital experience platform (DXP) built on Sitecore XM Cloud... Point B's DXP also includes Sitecore Search for scalable, multi\u2011purpose search, Sitecore CDP for customer profile tracking and analytics, and Sitecore Personalize to enable targeted experiences. Integrations included Vercel Next.js... and Salesforce Pardot Forms."
+      },
+      "outcome": {
+        "headline": "212% more customer engagement",
+        "text": "Now in a stronger position to challenge the established consultancy industry, Point B\u2019s marketing and customer communication is more flexible, and the company can better reflect business changes rapidly and respond to customer demand swiftly."
+      },
+      "stats": [
+        {
+          "label": "Faster time to market",
+          "value": "99%"
+        },
+        {
+          "label": "Quicker to find content",
+          "value": "100%"
+        },
+        {
+          "label": "Increased time on site",
+          "value": "212%"
+        },
+        {
+          "label": "Faster desktop page speed",
+          "value": "42%"
+        },
+        {
+          "label": "Faster mobile page speed",
+          "value": "15%"
+        },
+        {
+          "label": "Months to deploy project",
+          "value": "<4"
+        },
+        {
+          "label": "Weeks to develop new features",
+          "value": "2"
+        }
+      ],
+      "testimonial": {
+        "quote": "Having the best\u2011in\u2011class Sitecore DXP platform along with best\u2011in\u2011class development by Sitecore partner Oshyn, helps Point B increase brand awareness and authenticity...",
+        "author_name": "Michelle Auchter",
+        "author_title": "CMO",
+        "author_company": "Point B"
+      },
+      "industry": "Professional Services",
+      "business_model": "B2B",
+      "url": "https://www.sitecore.com/explore/customers/point-b/point-b-boosts-engagement-with-sitecore-dxp",
+      "partner_url": "https://www.oshyn.com",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/51eec080faae45daaf0803a8e40f15ad?v=d32f4c56",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/0d1a224d2f8244e39af65adf95051c39?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000SCvlZ&d=%2Fa%2FUj0000050tEX%2FJ4j4k8rkiowIKhs67F4PU8FvDBMSPnoBI9Ei.j2924k&asPdf=false",
+      "product_ids": [
+        "xm-cloud",
+        "search",
+        "cdp",
+        "personalize"
+      ],
+      "stack_ids": [
+        "vercel",
+        "salesforce"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Performance Improvement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "personalization",
+          "analytics",
+          "brand awareness",
+          "DXP",
+          "API"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "cimic-group-09",
+      "content_type": "Customer Award",
+      "customer_name": "CIMIC Group",
+      "title": "Construction and services leader boosts web team productivity",
+      "overview": "CIMIC Group transforms online user experiences and enables 240% faster content creation with Sitecore XM Cloud and AI\u2011powered Search.",
+      "stats": [
+        {
+          "label": "Month\u2011to\u2011month increase in new site visits",
+          "value": "8.3%"
+        },
+        {
+          "label": "Increase in return visits",
+          "value": "12%"
+        },
+        {
+          "label": "Faster content creation",
+          "value": "240%"
+        },
+        {
+          "label": "Faster to launch new websites",
+          "value": "2X"
+        },
+        {
+          "label": "Faster for users to find content",
+          "value": "33%"
+        },
+        {
+          "label": "Site assets migrated",
+          "value": "2,360"
+        }
+      ],
+      "project_brief": "The transformation project, which involved upgrading from Sitecore XP to Sitecore XM Cloud and Sitecore Search, was delivered six months early.",
+      "challenge": {
+        "headline": "Establishing scalable digital foundations",
+        "text": "The group was supporting these websites on a traditional infrastructure running Sitecore XP. The infrastructure lacked scalability... Due to technical debt, CIMIC Group struggled to update its systems to the latest versions, which resulted in security risks, increased maintenance costs, and downtime."
+      },
+      "solution": {
+        "headline": "A pioneering approach to future\u2011proofing 13 websites",
+        "text": "CIMIC Group migrated from Sitecore XP to Sitecore XM Cloud for its user\u2011friendly content authoring experience and added Sitecore Search... Other key factors for selecting the cloud\u2011based Sitecore solutions include the composable approach and compatibility with AI and machine learning to support future initiatives."
+      },
+      "outcome": {
+        "headline": "Improved marketing productivity and an exceptional user experience",
+        "text": "CIMIC Group improved the user experience, enhanced marketing productivity, and enabled greater scalability. The platform delivers quicker loading times and better responsiveness, with 33% faster search."
+      },
+      "testimonial": {
+        "quote": "The decision to rebuild our website has proved to be a very good one. We achieved a pioneering digital transformation and launched six months early. We are proud of the team's cross\u2011company collaboration and committed to staying at the forefront of digital innovation.",
+        "author_name": "CIMIC Group",
+        "author_title": "",
+        "author_company": "CIMIC Group"
+      },
+      "industry": "Construction",
+      "business_model": "B2B",
+      "products": [
+        "XM Cloud",
+        "Search",
+        "XP"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/cimic-group/cimic-group-boosts-marketing-productivity-with-sitecore",
+      "partner_url": "https://www.codehouse.com",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/7e42b43c50144c1bad61bcc481ce5c17?v=44a2fc95",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b0877bf930c64858ae3032febac8a1bb?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R68x0&d=%2Fa%2FHu000000J3pn%2FWay9OsJi5oA.6jBvSmVmzzG5KJ0d0nvZwmES_CawwVs&asPdf=false",
+      "product_ids": [
+        "xm-cloud",
+        "search",
+        "xp"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Operational Consolidation",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "user experience",
+          "digital transformation",
+          "composable",
+          "cloud"
+        ]
+      },
+      "persona": "Business"
+    },
+    {
+      "id": "gold-coast-xx",
+      "content_type": "Customer Award",
+      "customer_name": "Experience Gold Coast",
+      "title": "Australia's Gold Coast drives 100%+ higher tourist engagement with Sitecore",
+      "overview": "Run-up to 2032 Summer Olympics drives digital transformation with Sitecore composable solutions delivering triple digit increases in conversions, new business opportunities",
+      "project_brief": "Experience Gold Coast (EGC), the region\u2019s destination marketing organization, is reinvigorating its visitor digital journey in anticipation of the 2032 Summer Olympics. By using Sitecore composable solutions, EGC has achieved faster and easier visitor engagement management and personalization, resulting in double- and triple-digit increases in website visits, conversions, and business opportunities.",
+      "stats": [
+        {
+          "label": "Higher conversion rate",
+          "value": "119%"
+        },
+        {
+          "label": "Increase in new site visits",
+          "value": "52.5%"
+        },
+        {
+          "label": "More business leads year-on-year",
+          "value": "164%"
+        },
+        {
+          "label": "Longer website session duration",
+          "value": "17%"
+        },
+        {
+          "label": "Increase in goal completions",
+          "value": "174%"
+        },
+        {
+          "label": "Digital assets",
+          "value": "45,000"
+        },
+        {
+          "label": "Rise in website traffic",
+          "value": "48.5%"
+        },
+        {
+          "label": "Higher website traffic via mobile",
+          "value": "70%"
+        }
+      ],
+      "challenge": {
+        "headline": "Raising tourist engagement over increasing competition",
+        "text": "The Gold Coast\u2019s tourism industry, attracting 11 million tourists a year and generating AU$7 billion, faced increasing competition reducing its market share. Experience Gold Coast (EGC) needed to increase demand, arrivals, and expenditures for the region\u2019s accommodation and entertainment venues, theme parks, tour operators, restaurants, and professional support services. Aiming to double economic impact in 10 years, EGC\u2019s strategy focused on appealing to wider audiences and converting interest into bookings and revenue. EGC wanted to offer a visitor-focused digital experience and empower marketers to maximize dynamic content, segmentation, and personalization."
+      },
+      "solution": {
+        "headline": "Expand digital engagement with modern, future-proof DX",
+        "text": "EGC worked with Sitecore solution partner PING Works to develop a modern, flexible, future-proof digital experience platform integrating Sitecore\u2019s composable solutions with third-party data warehouses, applications, aggregators, and services on the Sitecore Experience Platform. Sitecore CDP and Sitecore Personalize are used for analyzing customer data and delivering personalized content and offers to broader visitor segments. Sitecore Content Hub DAM enables non-technical marketing and sales professionals to develop, manage, and publish digital content, driving a 174% increase in goal completions. EGC can standardize various asset types from diverse sources for distribution to members, press, government, and tourism entities."
+      },
+      "outcome": {
+        "headline": "Engaging new visitors",
+        "text": "EGC\u2019s new website is broadening audiences and increasing tourism to the city. With the composable Sitecore platform, EGC is transforming the organization\u2019s visitor engagement, driving up visitor numbers, and increasing the city\u2019s economic performance. Website traffic is up by 48.5%, and visitors are spending 17% more time per session, benefiting local businesses with increased customers and revenue. Revenue-generating opportunities increased 164% year-on-year, with a 119% increase in visitors booking accommodations, attending leisure and business events, and enjoying local establishments. Significantly, a 52.5% increase in new site visits indicates that EGC is reaching audiences that are new to the Gold Coast\u2014and raising the destination\u2019s global profile in the run-up to the 2032 Summer Olympics."
+      },
+      "testimonial": {
+        "quote": "EGC transformed the impact of our digital platform by seamlessly integrating several Sitecore composable products with associated applications to deliver a flexible and future-proof solution. With Sitecore, we have made it easy for non-technical business users to create and manage content and develop targeted and personalized digital journeys so we can reach and attract new audiences to the Gold Coast.",
+        "author_name": "Daniel McQuillan",
+        "author_title": "Digital Performance Manager",
+        "author_company": "Experience Gold Coast"
+      },
+      "industry": "Travel and Hospitality",
+      "business_model": "B2C",
+      "products": [
+        "CDP",
+        "XP",
+        "Personalize",
+        "Send",
+        "Content Hub"
+      ],
+      "stack": [],
+      "url": "https://www.sitecore.com/explore/customers/gold-coast/australias-gold-coast-drives-100-percent-higher-tourist-engagement-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/1139c856f2ba4a1f88ca11464c83af1d?v=e3981661",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/2e967ef7cb3548ff839d31f912fa8866?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=068Hu00000Y6ne8&d=%2Fa%2FUj000005ObDG%2FVYO1s9jozh3VqRvBheqaPFsSvMLja0ykgSTva2lZvIw&asPdf=false",
+      "partner_url": "http://www.ping-works.com.au/",
+      "product_ids": [
+        "cdp",
+        "experience-platform",
+        "personalize",
+        "send",
+        "content-hub"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Revenue Growth",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "digital transformation",
+          "composable",
+          "personalization",
+          "customer data",
+          "DAM",
+          "content management",
+          "customer journey",
+          "DXP",
+          "SEO"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "brady-corp-award-25",
+      "content_type": "Customer Award",
+      "customer_name": "Brady",
+      "title": "Global manufacturing leader transforms customer experience with Sitecore",
+      "overview": "Brady Corp DXP centralizes content and operations for 18 multilingual websites across 23 countries worldwide",
+      "project_brief": "Brady Corporation has over a century of experience and is a global leader providing essential safety, identification, and compliance solutions tailored to businesses of all sizes, across every corner of the globe. From the depths of the ocean to outer space, from the factory floor to the delivery room, Brady\u2019s comprehensive range of high-quality products, including labels, printers, RFID technologies, and barcode scanning solutions, are just about everywhere you look. Thanks to a modern, flexible, and efficient digital experience platform powered by Sitecore, Brady\u2019s products and solutions reach businesses and organizations in nearly every country, and has significantly enhanced how customers search, select, and purchase products.",
+      "stats": [
+        {
+          "label": "increase in CVR",
+          "value": ">7%"
+        },
+        {
+          "label": "increase in onsite search CVR",
+          "value": "9%"
+        },
+        {
+          "label": "Sitecore sites",
+          "value": "25"
+        },
+        {
+          "label": "Languages",
+          "value": "18"
+        }
+      ],
+      "challenge": {
+        "headline": "Embracing a global market",
+        "text": "Headquartered in Milwaukee, Wisconsin, Brady Corporation has been manufacturing and marketing a vast array of safety, identification, and software products since 1914. With a broad market reach, Brady serves a diverse customer base across industries such as electronics, telecommunications, manufacturing, electrical, construction, medical, and aerospace. As customer expectations evolve and competition intensifies, Brady recognized the opportunity to enhance its already strong ecommerce platform with a more modern, flexible, and innovative approach. With nearly 6,000 employees operating in many countries worldwide, Brady is focused on implementing scalable solutions that not only meet the demands of today, but also position the company to effectively reach and engage new audiences in the future."
+      },
+      "solution": {
+        "headline": "Composable, headless architecture",
+        "text": "Brady has built a new ecommerce platform powered by a Sitecore digital experience platform incorporating Sitecore OrderCloud, Sitecore Personalize, Sitecore Discover, and Sitecore Experience Manager. Working with Sitecore and its business partner Americaneagle.com, Brady has implemented a centralized DXP that integrates with the company\u2019s SAP ERP system. Underscoring Brady\u2019s composable and headless approach to technology architecture, Sitecore OrderCloud's API-first approach helps Brady build custom extensions and integrations with enterprise and third-party systems and scale new content and experiences to meet global demands. Separating business logic from the front end enhances flexibility to create optimized user interfaces, and scalability that enables the use of ecommerce functionality through other front-end channels, as well as team productivity. Additionally, using Sitecore OrderCloud to streamline product data structure has modularized Brady\u2019s ecommerce platform for better performance and customer experience."
+      },
+      "outcome": {
+        "headline": "Driving efficiency and effectiveness",
+        "text": "By centralizing ecommerce operations, simplifying order management, and eliminating the need for multiple application instances, Brady has greatly improved productivity and operational efficiency. Additionally, this transformation is driving a notable increase in both new and existing customers. A key advantage of the cloud-based Sitecore solution is reducing the time spent on application maintenance and updates. With some of these tasks handled automatically, Brady can now dedicate their efforts to delivering high-quality content and exceptional customer experiences, rather than focusing on IT operations and application support. This strategic shift has empowered Brady to elevate its digital presence and reinforce its position as a global leader."
+      },
+      "testimonial": {
+        "quote": "At Brady, we\u2019re always striving to be better \u2014 innovating and building new products, exploring better ways to solve our customers' problems, and delivering exceptional experiences at each touchpoint. An essential part of enhancing our customer connections is our new Sitecore-powered DXP. Sitecore\u2019s tools have given us great flexibility, enabling us to elevate our ecommerce experience and empower our customers to be more effective and successful.",
+        "author_name": "Nicole Westenberger",
+        "author_title": "VP/CMO",
+        "author_company": "Brady Corporation"
+      },
+      "industry": "Manufacturing",
+      "business_model": "B2B",
+      "products": [
+        "OrderCloud",
+        "Personalize",
+        "XM",
+        "Search"
+      ],
+      "stack": [],
+      "url": "https://www.sitecore.com/explore/customers/brady-corp/global-manufacturer-transforms-customer-experience-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/8238dea3552b4702b8e28256dfaac450?v=1e147e68",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/54a6ef9e8d9f4ece8a7bfa1c620e8028?t=sc1600",
+      "has_video": true,
+      "video_url": "https://webinars.sitecore.com/64968570/111923456/9e555f69d9270898e23492c900425ea6/video_hd/digital-experience-excellence-8-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67",
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R5B9e&d=%2Fa%2FUj000002BC37%2FdcZQHV_jK03zAqqJUZgOraBF6C6yc52h42iSADEczG4&asPdf=false",
+      "partner_url": "https://www.americaneagle.com/",
+      "product_ids": [
+        "ordercloud",
+        "personalize",
+        "xm",
+        "search"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Operational Consolidation",
+          "Performance Improvement"
+        ],
+        "terms": [
+          "customer experience",
+          "DXP",
+          "API",
+          "integration",
+          "composable"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "ntuc-xx",
+      "content_type": "Customer Story",
+      "customer_name": "NTUC",
+      "title": "NTUC creates digital experiences 500 percent faster with Sitecore",
+      "overview": "Singapore's National Trades Union Congress (NTUC) consolidated 62 websites onto Sitecore XP and Content Hub DAM, enabling 500% faster website deployments, enhancing user experience, boosting new online membership sign-ups and website traffic, and improving content management efficiency.",
+      "project_brief": "NTUC faced the challenge of unifying 62 websites, including those for trade unions, associations, and social enterprises, onto a single, future-proof platform. They migrated to Sitecore XP for its multi-tenancy capabilities and deployed Sitecore Content Hub DAM for centralized digital asset management. This transformation aimed to improve user experience, simplify website management, and enhance user management and security.",
+      "stats": [
+        {
+          "label": "Faster website deployments",
+          "value": "500%"
+        },
+        {
+          "label": "New online membership sign-ups",
+          "value": "39,000+"
+        },
+        {
+          "label": "Increase in website traffic",
+          "value": "33%"
+        },
+        {
+          "label": "Websites consolidated",
+          "value": "62"
+        }
+      ],
+      "challenge": {
+        "headline": "Uniting 62 disparate websites on end-of-life technologies",
+        "text": "NTUC's existing website technologies were reaching end-of-life, and they needed to unite 62 websites, including those for 58 trade unions, seven trade associations, and seven social enterprises, onto a single, future-proof platform. Key considerations included improving user experience, simplifying website management, and enhancing user management and security, ensuring that individual union web teams could only access their own sites."
+      },
+      "solution": {
+        "headline": "Sitecore XP and Content Hub for multi-tenancy and centralized asset management",
+        "text": "NTUC, led by Siow Shong Seng, migrated all 62 websites to Sitecore XP for its multi-tenancy capabilities and deployed Sitecore Content Hub DAM for centralized digital asset management. These Sitecore solutions were integrated with NTUC's existing systems like Linkpass (membership), Coveo (search), and OKTA (identity and access management). Reusable component libraries and streamlined workflows enabled efficient content management without IT support."
+      },
+      "outcome": {
+        "headline": "Faster deployments, improved user experience, and increased member engagement",
+        "text": "NTUC now deploys new websites and content five times faster, leading to 500% faster website deployments. The transformed user experience resulted in over 39,000 new online membership sign-ups and a 33% increase in website traffic. NTUC leverages Sitecore's analytics to understand user behavior and transactions better, allowing rapid changes to improve online engagement and member services. The platform also supports future enhancements like personalization and A/B testing."
+      },
+      "testimonial": {
+        "quote": "Choosing the right platform and partners is the foundation of offering a state-of-the-art digital experience. With Sitecore we can flex and scale with growing needs.",
+        "author_name": "Siow Shong Seng",
+        "author_title": "Chief Transformation & Technology Officer, Transformation Office",
+        "author_company": "NTUC"
+      },
+      "industry": "Nonprofit",
+      "business_model": "B2C",
+      "products": [
+        "XP",
+        "Content Hub"
+      ],
+      "stack": [
+        "Linkpass",
+        "Coveo",
+        "OKTA"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/ntuc/ntuc-creates-digital-experiences-500-percent-faster-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/7ef159198c87443d991bfad485288ca0?v=d501f687",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/3c99833b086445009bfd575139e1d960?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": false,
+      "partner_logo": null,
+      "partner_url": null,
+      "product_ids": [
+        "experience-platform",
+        "content-hub"
+      ],
+      "stack_ids": [
+        "coveo",
+        "okta"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Time to Market / Efficiency",
+          "Operational Consolidation",
+          "Audience Engagement"
+        ],
+        "terms": [
+          "digital transformation",
+          "user experience",
+          "content management",
+          "DAM",
+          "CMS",
+          "analytics",
+          "personalization",
+          "integration"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "the-tile-shop-05",
+      "content_type": "Case Study",
+      "customer_name": "The Tile Shop",
+      "title": "Omnichannel retailer extends premium in\u2011store experience online with Sitecore",
+      "overview": "The Tile Shop decreases page load time by 5x, cuts development time by up to 50%, and expands ecommerce experience.",
+      "project_brief": "The company has launched a new omnichannel in\u2011store and online experience, powered by Sitecore. Customers can browse through 5,000 different tile designs... enabling homeowners the luxury of making creative and personalized d\u00e9cor choices fast, efficient, and stress free.",
+      "challenge": {
+        "headline": "Closing the customer experience gap",
+        "text": "The challenge was extending the in\u2011store experience to the web, enabling omnichannel marketing, and growing an ecommerce business."
+      },
+      "solution": {
+        "headline": "Headless, composable ecommerce",
+        "text": "...migrated from Sitecore XP to a newly developed headless, composable ecommerce architecture using Sitecore XM Cloud, Sitecore OrderCloud and Sitecore Discover."
+      },
+      "outcome": {
+        "headline": "Increasing market share",
+        "text": "Sitecore has delivered a modernized ecommerce platform for faster time to market and increased scalability and has enabled commerce anywhere by providing an omnichannel customer experience which is helping The Tile Shop increase market share."
+      },
+      "stats": [
+        {
+          "label": "Page load speed reduction",
+          "value": "5x"
+        },
+        {
+          "label": "Faster to deploy content and experiences",
+          "value": "25%"
+        },
+        {
+          "label": "Decrease in development time",
+          "value": "50%"
+        },
+        {
+          "label": "Tiles available online",
+          "value": "5k"
+        },
+        {
+          "label": "US stores",
+          "value": "142"
+        }
+      ],
+      "testimonial": {
+        "quote": "In retail it is change or die, so as a business we need to be agile and be able to pivot quickly. The Sitecore platform and the knowledge and experience that the partnership brings to The Tile Shop enables us to be much better prepared for future challenges.",
+        "author_name": "Christopher Davis",
+        "author_title": "CIO",
+        "author_company": "The Tile Shop"
+      },
+      "industry": "Retail",
+      "business_model": "Both",
+      "url": "https://www.sitecore.com/explore/customers/the-tile-shop/the-tile-shop-expands-ecommerce-experience",
+      "partner_url": "https://www.altudo.com",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/79bbc99a893d401f855217b42da13ad3?v=ae91eec8",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/3a87012ba932407ca6dff1a8731fb309?t=sc1600",
+      "has_video": true,
+      "video_url": "https://webinars.sitecore.com/64968570/108777304/573a6a94728c50d2b873aa2cf14b24cc/video_hd/digitalexperienceexcellencethetiles-1-5-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67",
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R5gWk&d=%2Fa%2FUj000003p1d3%2FRSPPMjzrfO3t8q3mekokkC2PkI.oTevBFtoIvvHA4eY&asPdf=false",
+      "product_ids": [
+        "xm-cloud",
+        "ordercloud",
+        "discover"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Operational Consolidation",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "omnichannel",
+          "customer experience",
+          "composable",
+          "headless",
+          "cloud"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "avanade-01",
+      "content_type": "Case Study",
+      "customer_name": "Avanade",
+      "title": "Global tech firm drives 200% more website sales with Sitecore",
+      "overview": "Avanade's digital transformation improves sales and customer engagement with website leads increasing by 100% and 560% more leads turning into opportunities.",
+      "project_brief": "When Sitecore partner Avanade embarked upon its website rebuild using a Sitecore XM Cloud solution, little could they have imagined that in just five months, it would transform business performance with a 200% increase in web-based sales...",
+      "challenge": {
+        "headline": "Changing customer demand",
+        "text": "Avanade is the world\u2019s leading expert on Microsoft... The business had seen a dramatic change in client demand and expectation for better, faster, agile, and personalized digital experiences."
+      },
+      "solution": {
+        "headline": "Modern, faster, connected",
+        "text": "Avanade migrated from on\u2011premises to a Sitecore Content Cloud solution comprising Sitecore XM Cloud and Sitecore Content Hub DAM. Sitecore integrates with the company\u2019s martech stack to enable an end\u2011to\u2011end client experience journey... connected to Marketo for organizing marketing automation and Microsoft Dynamics as the CRM platform."
+      },
+      "outcome": {
+        "headline": "Better sales, better engagement",
+        "text": "As a result of Sitecore, a fresher looking website, rebrand and other improvements, Avanade has realized better engagement, better sales, and better experiences."
+      },
+      "stats": [
+        {
+          "label": "More website sales",
+          "value": "200%"
+        },
+        {
+          "label": "Increase in website leads",
+          "value": "100%"
+        },
+        {
+          "label": "Lead-to-sales\u2011opportunities",
+          "value": "66%"
+        },
+        {
+          "label": "People completing contact forms",
+          "value": "111%"
+        },
+        {
+          "label": "Visitors viewing \u22653 pages",
+          "value": "43%"
+        },
+        {
+          "label": "Return visits",
+          "value": "13%"
+        }
+      ],
+      "testimonial": {
+        "quote": "Our Sitecore\u2011powered website is the critical point for every single moment that matters in our client journey. And collectively, it's helping Avanade be a simpler organization to understand and an easier organization to work with and that is translating into great ROI figures.",
+        "author_name": "Ruth Rowan",
+        "author_title": "Chief Growth Officer",
+        "author_company": "Avanade"
+      },
+      "industry": "IT and Telecom",
+      "business_model": "B2B",
+      "url": "https://www.sitecore.com/explore/customers/avanade/global-tech-firm-drives-200-percent-more-website-sales-with-sitecore",
+      "partner_url": null,
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/7112251e36fb40fc9b8f54f916ecb331?v=3ce362f5",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/87a9e085e3f042de876b4b464e1642bf?t=sc1600",
+      "has_video": true,
+      "video_url": "http://webinars.sitecore.com/digitalexpereinceexcellenceavanadev",
+      "has_partner": false,
+      "partner_logo": null,
+      "product_ids": [
+        "xm-cloud",
+        "content-hub"
+      ],
+      "stack_ids": [
+        "ms-dynamics",
+        "marketo"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Revenue Growth"
+        ],
+        "terms": [
+          "digital transformation",
+          "DAM",
+          "cloud",
+          "martech stack"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "toyota-australia-award-29",
+      "content_type": "Customer Award",
+      "customer_name": "Toyota Australia",
+      "title": "Toyota Australia makes car buying easy with Sitecore",
+      "overview": "Toyota Australia deployed a modern DXP for consumers to find used cars from home.",
+      "project_brief": "Buying a car is the second biggest purchase we are likely to make (after buying a home). But with the average cost of a new car costing around $62,000AUD, most of us opt for a more affordable second-hand vehicle. Toyota Australia is helping to make the experience of researching, finding, and choosing the right car easier and more palatable. The company\u2019s reimagined used car website, powered by Sitecore technology, enables people to do most of the legwork from the comfort of their own homes.",
+      "stats": [
+        {
+          "label": "Improved conversion rate since launch",
+          "value": "25%"
+        },
+        {
+          "label": "Bounce rate has decreased by 35%",
+          "value": "35%"
+        },
+        {
+          "label": "Time on site",
+          "value": "70%"
+        },
+        {
+          "label": "Site traffic Increase",
+          "value": "6%"
+        }
+      ],
+      "challenge": {
+        "headline": "Car purchase pain",
+        "text": "Finding your next car can be a time-consuming and emotionally draining process, especially when navigating through a wide range of makes and models across multiple dealerships. Toyota Australia has reimagined this journey with the launch of the new Used Vehicle Reimagined website, designed to make buying a second-hand vehicle easier, faster, and more enjoyable for its customers. With access to around 10,000 vehicles at any time, the platform allows potential buyers to effortlessly search and browse Toyota dealership used vehicle stock from across the country. In addition to this extensive inventory, the site highlights Toyota Certified Pre-Owned Vehicles, offering market-leading benefits like rigorous inspections, extended warranties, and the peace of mind that comes with buying a quality-assured vehicle. By providing a modern digital experience solution, Toyota enables customers to confidently find, explore, and even purchase their ideal vehicle entirely online, making the experience as smooth as possible."
+      },
+      "solution": {
+        "headline": "Headless ecommerce platform",
+        "text": "In collaboration with Sitecore\u2019s implementation partner Deloitte Digital and Toyota's design partner, R/GA. The company transformed its existing Sitecore XP solution to the Sitecore XM Headless and decided to utilize some of Sitecore\u2019s SaaS DXP offerings including Sitecore Search, Sitecore Discover, and Sitecore OrderCloud. The Sitecore OrderCloud headless ecommerce platform has been integrated with the Next.js open-source web development framework to modernize the DXP and better meet customer demand. The modern, headless approach to the new DXP has fostered a modular content and component architecture for Toyota\u2019s digital properties. It enables Toyota to build unique ecommerce, order management, and marketplace solutions and is a foundation to deliver more experiences in the future. Much of the success of the project is down to meticulous planning, coordination, and technical expertise between the Toyota team, Deloitte Digital, and Sitecore."
+      },
+      "outcome": {
+        "headline": "Modern digital experience",
+        "text": "Sitecore has helped Toyota Australia deliver a digital transformation of its used vehicle services. When looking for their next car, visitors to Toyota Australia\u2019s website get a fast and efficient ecommerce experience. The Sitecore-powered DXP uses AI to \u2018learn\u2019 visitor preferences, helping to make searching seamless. Already the new architecture is delivering impressive results with overall website performance significantly faster than before. Key page load times, for example, are 40% quicker and site reliability has increased by 45%. Conversion rates on incoming traffic has increased by 25% since transitioning to the new platform. This gives customers a seamless experience with increased page load efficiencies and better user engagement. The Toyota staff experience has also improved as the time to create and deploy new components and content has been cut by weeks. Part of that has been achieved by increasing content and component re-use by almost 50%. The digital transformation of Toyota Australia's Used Vehicle Program leverages the headless Sitecore platform and Sitecore composable technologies to create a modern digital experience for digitally savvy customers."
+      },
+      "testimonial": {
+        "quote": "By leveraging Sitecore\u2019s composable DXP products we have established a new solid foundation to build and deliver exceptional experiences for Toyota customers.",
+        "author_name": "Mathew Archibald",
+        "author_title": "Senior Solutions Architect",
+        "author_company": "Toyota Motor Corporation Australia"
+      },
+      "industry": "Automotive",
+      "business_model": "B2C",
+      "products": [
+        "XM",
+        "Search",
+        "OrderCloud"
+      ],
+      "stack": [],
+      "url": "https://www.sitecore.com/explore/customers/toyota-australia/toyota-makes-car-buying-easy-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/a893acdbc0c742ee9a13949edc2f52fb?v=31c620d1",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/9cf2e9edb6864999b992676ff88847b4?t=sc1600",
+      "has_video": false,
+      "video_url": "",
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R6rii&d=%2Fa%2FUj000000ieRZ%2FS7TkDWmWZq4Aq7XsuCtMKHqWrhq5CpPOLUkKwuzq.80&asPdf=false",
+      "partner_url": "https://www.deloittedigital.com/",
+      "product_ids": [
+        "xm",
+        "search",
+        "ordercloud"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Performance Improvement"
+        ],
+        "terms": [
+          "digital transformation",
+          "DXP",
+          "composable",
+          "headless",
+          "SaaS"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "nmdp-story-27",
+      "content_type": "Customer Story",
+      "customer_name": "NMDP",
+      "title": "NMDP unifies and personalizes digital experiences with Sitecore",
+      "overview": "Nonprofit provides better online experiences for donors, patients, and caregivers with Sitecore-powered content delivery and personalization.",
+      "project_brief": "",
+      "stats": [
+        {
+          "label": "site now for \"bone marrow donation\" searches",
+          "value": "#1"
+        },
+        {
+          "label": "increase in \u201cNMDP volunteer\" searches postmigration",
+          "value": "132%"
+        },
+        {
+          "label": "of unique visitors reported service desk incidents in 6 months",
+          "value": "<1%"
+        },
+        {
+          "label": "reduction of site pages, from 3,237 to 290",
+          "value": ">90%"
+        },
+        {
+          "label": "web page and 40,000 files reviewed",
+          "value": "4,000"
+        },
+        {
+          "label": "uptime since moving to Sitecore with Vercel",
+          "value": "100%"
+        }
+      ],
+      "challenge": {
+        "headline": "An inconsistent and fragmented digital footprint",
+        "text": "NMDP, formerly the National Marrow Donor Program, saves lives by providing cell therapy for individuals battling blood diseases or cancers and connecting potential donors with those that need transplants. With more than nine million potential donors on its registry and around 125,000 transplants facilitated since 1987, NMDP impacts thousands of lives each year. NMDP\u2019s website plays a vital role in changing lives for families across the US. Digital technologies are integral to NMDP\u2019s operations, from maintaining the national registry to coordinating patient care. To provide the highest levels of service to patients, families, caregivers, transplant centers, and research institutions, NMDP relies on enterprise-level digital solutions. As a nonprofit, NMDP must carefully evaluate its investments to ensure they stay within a limited budget while maximizing impact. As part of its rebranding to NMDP, the organization sought to modernize its digital platform and consolidate its various microsites and brands. Its digital footprint included dozens of independently developed websites catering to diverse audiences, such as B2C, B2B, and B2G (business-to-government). This resulted in disparate and outdated technologies, including a CMS that was nearing its end of life and no longer fit for purpose."
+      },
+      "solution": {
+        "headline": "Enabling integrated, personalized content delivery with a headless approach",
+        "text": "NMDP embarked on a multi-year, multi-site initiative to rebuild and rebrand its digital presence. This effort involved replacing outdated platforms with modern, robust headless solutions powered by Sitecore. NMDP selected Sitecore Experience Manager (XM), Sitecore Experience Platform (XP), Sitecore CDP, and Sitecore Personalize as the foundation for its new digital capabilities. \u201cWe evaluated many tools before choosing Sitecore,\u201d commented Elycia Arendt, Director of Application Development at NMPD. \u201cSitecore integrates well with our digital ecosystem. Its headless architecture and ease of integration with our platforms were critical factors in our decision. It\u2019s also exciting technology for our development team to work with.\u201d Sitecore solutions seamlessly integrate with NMDP\u2019s Salesforce CRM system and Okta for identity and access management. With Sitecore, NMDP can efficiently manage and deliver content online, connect customer data across its ecosystem, and personalize user experiences. For example, Sitecore is the foundation of NMDP\u2019s new network website \u2014 a B2B site that provides thousands of government documents essential for transplant centers and medical professionals. As part of simplifying and unifying the organization\u2019s brand presence, NMDP also conducted a content audit, reviewing more than 4000 pages and over 40,000 files across NMDP\u2019s entire network website. \u201cWith Sitecore, we\u2019ve created a website that makes it easier for users to find what they need through enhanced search and personalization, simplifying their work and improving efficiency,\u201d Arendt explained. \u201cThe feedback has been overwhelmingly positive.\u201d"
+      },
+      "outcome": {
+        "headline": "Unifying the brand, streamlining operations, and improving user experiences",
+        "text": "With its new websites built on Sitecore, NMDP has unified its brand presence and streamlined its processes. These websites provide a consistent and cohesive online experience that aligns with NMDP\u2019s digital strategy. Featuring simplified navigation, personalization, 90% fewer site pages, and enhanced search capabilities, the new platform significantly improves the user experience, making it easier for users to find the content they need. Within the first two days of launch, the new websites drew 2,500 unique visitors with only five service desk incidents reported. NMDP is now the number one site for \u2018bone marrow donation\u2019 searches, and the organization has experienced an increase of 132% in searches for \u2018NMDP volunteer\u2019. The benefits extend beyond website users. NMDP has also enhanced productivity and satisfaction for its developers, marketers, and content creators by optimizing operations. \u201cThanks to Sitecore, we\u2019ve unified processes and made life simpler, enabling the web team to focus on delivering more advanced capabilities rather than spending hours updating content,\u201d commented Arendt. Previously, the organization frequently relied on external agencies to deliver projects and campaigns. Empowered by Sitecore, NMDP can now handle these tasks internally. Marketers can independently create campaigns, develop content, and implement personalization strategies. Sitecore continues to underpin NMDP\u2019s digital transformation. "
+      },
+      "testimonial": {
+        "quote": "Sitecore is helping drive our digital journey, enabling us to deliver unified, consistent, and targeted experiences to all our audiences.",
+        "author_name": "Elycia Arendt",
+        "author_title": "Director, Application Development",
+        "author_company": "NMDP"
+      },
+      "industry": "Healthcare and Life Sciences",
+      "business_model": "B2C",
+      "products": [
+        "XM",
+        "XP",
+        "CDP",
+        "Personalize"
+      ],
+      "stack": [
+        "Salesforce"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/nmdp/nmdp-enhances-digital-experiences-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/441bb98578db47a9a527bec9678ef2f4?v=905c4722",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/2974f29bafb94a5da62798a4dd9af3de?t=sc1600",
+      "has_video": true,
+      "video_url": "https://webinars.sitecore.com/64968569/110849067/1401a6b844defe15dc19b20dc4bc7ab0/video_hd/nmdp-customer-story-video-7-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67",
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000R70kG&d=%2Fa%2FUj000003p2CY%2FGkkh98P68tAupYvcZvYzVUjRiIN6yKAgcXZWsTVxNJw&asPdf=false",
+      "partner_url": "https://www.horizontaldigital.com/",
+      "product_ids": [
+        "xm",
+        "experience-platform",
+        "cdp",
+        "personalize"
+      ],
+      "stack_ids": [
+        "salesforce"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement"
+        ],
+        "terms": [
+          "personalization",
+          "user experience",
+          "customer data",
+          "campaign",
+          "digital transformation"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "cytiva-22",
+      "content_type": "Customer Award",
+      "customer_name": "Cytiva",
+      "title": "Cytiva rapidly updates webpages with Sitecore",
+      "overview": "Biotechnology solutions provider rapidly delivers consistent online experiences globally with centralized digital asset management and content management from Sitecore.",
+      "project_brief": "Cytiva, which recently merged with the life sciences business of Pall, is a global provider of technologies and services to advance and accelerate the development, manufacturing, and delivery of novel therapeutics. When the life sciences company decided to improve the brand experience and continuity across local markets, it migrated to Sitecore technology.",
+      "stats": [
+        {
+          "label": "Country webpages updated",
+          "value": "32"
+        },
+        {
+          "label": "Increase in transaction revenue",
+          "value": "50%"
+        },
+        {
+          "label": "Increase in customer quotes",
+          "value": "30%"
+        },
+        {
+          "label": "Improvement in ecommerce experience",
+          "value": "900%"
+        }
+      ],
+      "challenge": {
+        "headline": "Supporting expansion and localization",
+        "text": "Cytiva had distributed website, content, and brand ownership, which resulted in a poor brand experience and a lack of continuity across markets. Cytiva needed a digital platform that supported greater collaboration, rapid expansion, and easier localization."
+      },
+      "solution": {
+        "headline": "An agile approach and a composable architecture",
+        "text": "Cytiva is working with long\u2011term digital services partner EPAM to migrate its online architecture to a composable approach built on Sitecore technologies, using Sitecore Content Hub DAM and XM\u202fCloud to enable agile, phased deployment across markets."
+      },
+      "outcome": {
+        "headline": "Global and local flexibility enable better online experiences",
+        "text": "Using Sitecore Content Hub DAM and XM\u202fCloud, Cytiva has rapidly launched 32 additional sites around the world with a hybrid federation model, enabling cross\u2011geography collaboration and delivering a 900% improvement in the ecommerce experience."
+      },
+      "testimonial": {
+        "quote": "\u201cSitecore\u2019s technology has enabled us to deliver with speed and flexibility, driving a consistent digital experience for our customers across both commerce and marketing content.\u201d",
+        "author_name": "Chris Batten",
+        "author_title": "Director of Digital Customer Experience",
+        "author_company": "Cytiva"
+      },
+      "industry": "Healthcare and Life Sciences",
+      "business_model": "B2B",
+      "products": [
+        "XP",
+        "XM Cloud",
+        "Content Hub"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/cytiva/cytiva-rolls-out-32-new-websites-with-sitecore",
+      "logo": null,
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/06fab3ca0c2048e5805f8fcc74d29cc0?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000XbmUU&d=%2Fa%2FUj000002wEpR%2F3flBR1YG.ASIjZ.PStAnhVEWIpMTGZKvGApc25mn56o",
+      "partner_url": "http://www.epam.com",
+      "product_ids": [
+        "xp",
+        "xm-cloud",
+        "content-hub"
+      ],
+      "stack_ids": [
+        "sitecore-360"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Operational Consolidation",
+          "Revenue Growth"
+        ],
+        "terms": [
+          "content management",
+          "DAM",
+          "API",
+          "composable",
+          "composable architecture"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "greene-king-xx",
+      "content_type": "Customer Award",
+      "customer_name": "Greene King",
+      "title": "Greene King boosts bookings with Sitecore",
+      "overview": "UK\u2019s leading pub retailer and brewery improves online customer experiences, increases digital efficiency, and supports brand development by consolidating 1,700 websites on Sitecore.",
+      "project_brief": "Greene King, the leading pub retailer and brewer in the UK, decided to consolidate its 1,704 websites, hosted on 80 different domains, to a single environment. Its new website foundations are built on composable Sitecore technologies to align with its digital strategy. As a result of the transformation, Greene King has increased customer booking conversions, streamlined content creation and management, and can easily support new brand development initiatives.",
+      "stats": [
+        {
+          "label": "Pub websites migrated",
+          "value": "1,704"
+        },
+        {
+          "label": "Increase in website sessions",
+          "value": "4%"
+        },
+        {
+          "label": "Expected 5-year ROI from booking conversions",
+          "value": "37%"
+        },
+        {
+          "label": "Improvement in click-through to book",
+          "value": "23%"
+        },
+        {
+          "label": "Domains consolidated to",
+          "value": "1 (from 80)"
+        }
+      ],
+      "challenge": {
+        "headline": "Consolidating websites from 80 domains",
+        "text": "Greene King's websites were spread amongst 80 different web domains, leading to time-consuming manual management, costly upgrades, and the need to rebuild features for each website, resulting in high costs and long lead times. To meet ever-changing customer needs, Greene King wanted a resilient, future-proof digital platform to support customer experiences, engagement, and conversion rates, while empowering marketing teams."
+      },
+      "solution": {
+        "headline": "An integrated platform for more than 1,700 websites",
+        "text": "Greene King migrated 1,704 websites from 80 disparate domains to a composable digital foundation built on Sitecore, in partnership with VML. Sitecore Experience Platform (XP) and Sitecore Experience Manager (XM) are hosted via Sitecore Managed Cloud and combined with Sitecore Content Hub DAM and Sitecore Content Hub Operations to provide an end-to-end platform that makes it easier for teams to find and reuse assets across every channel. Teams now have access to prebuilt features and components, eliminating the need to rebuild capabilities for each site and ensuring consistency with digital design guidelines. The Sitecore solutions also integrate seamlessly with the tools needed to drive quality and maintain a best-in-class experience, such as automated testing and vulnerability identification. As part of the transformation, Greene King has established a continuous improvement team with standardized working practices across the full web development lifecycle, from architecture and developing to testing, release, and support."
+      },
+      "outcome": {
+        "headline": "Increasing customer bookings and supporting brand development",
+        "text": "Greene King now has the foundations it needs to rapidly build tailored websites that align with its branding, which will help the company achieve its digital ambitions and support business development projects. The website transformation has resulted in a 4% increase in website sessions and a 0.6% increase in booking conversions, which will deliver an internal rate of return of 37% over five years. Greene King has improved the online user experience in multiple ways with its refresh. For example, sites are now optimized for mobile devices, which represent 70% of its users, while greater site speed and performance have boosted Google rankings. The company has also enhanced accessibility for increased inclusivity, updated copy to streamline customer journeys, and made it easier for users to book a table. With Sitecore, the company can better understand customer behavior and conduct testing to enable continuous improvement. For example, the digital team identified that by increasing the prominence of the book button, it was able to enhance click-through to book by 23%. These capabilities combined with streamlined workflows help boost internal efficiency and cultivate a more collaborative way of working between IT, digital, and partner teams."
+      },
+      "testimonial": {
+        "quote": "It\u2019s important that our websites are user-friendly and customers have a consistent and positive experience using them. With Sitecore\u2019s market-leading platform, we've been able to improve the customer journey and create the digital foundations we need to support our omnichannel strategy while also streamlining the workflows for our digital teams so they can focus on creating content that resonates with our customers.",
+        "author_name": "Andy Lewis",
+        "author_title": "Head of Digital Product",
+        "author_company": "Greene King"
+      },
+      "industry": "Travel and Hospitality",
+      "business_model": "B2C",
+      "products": [
+        "XM",
+        "XP",
+        "Managed Cloud",
+        "Content Hub"
+      ],
+      "stack": [],
+      "url": "https://www.sitecore.com/explore/customers/greene-king/greene-king-increasing-bookings-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/e654b56fa6294bb48d25464d49293b91?v=0a227e77",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/c5c98abbc2834406a29724c5aec5be31?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=068Hu00000XUfcd&d=%2Fa%2FUj000000qZOH%2FME.gERyIqUzkPlTAjnt4NSnTeJMc5byO8c28VaeziNM&asPdf=false",
+      "partner_url": "http://www.vml.com/",
+      "product_ids": [
+        "xm",
+        "experience-platform",
+        "managed-cloud",
+        "content-hub"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Operational Consolidation",
+          "Revenue Growth",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "content management",
+          "digital transformation",
+          "customer experience",
+          "omnichannel",
+          "composable",
+          "cloud",
+          "DAM",
+          "CMS",
+          "customer journey",
+          "SEO",
+          "DXP"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "wellspan-health-18",
+      "content_type": "Customer Story",
+      "customer_name": "WellSpan Health",
+      "title": "WellSpan personalizes online patient experiences with Sitecore",
+      "overview": "Nonprofit health system redesigns website on Sitecore to enable unified, personalized, and secure online experiences.",
+      "project_brief": "WellSpan Health is a nonprofit health system... They redesigned it on Sitecore XM and Sitecore Personalize using a headless architecture to offer cohesive experiences and faster content delivery.",
+      "stats": [
+        {
+          "label": "Increase in new user accounts",
+          "value": "20% (in first two months)"
+        },
+        {
+          "label": "Annual site visits",
+          "value": "6\u202fM"
+        },
+        {
+          "label": "Items added to favorites",
+          "value": "18,178"
+        },
+        {
+          "label": "Logged-in visitors",
+          "value": "13%"
+        }
+      ],
+      "challenge": {
+        "headline": "Disconnected tools result in fragmented online experiences",
+        "text": "Legacy CMS and disconnected tools meant patients encountered fragmented experiences, with up to 10 separate systems for tasks like appointments, results, messages, and billing."
+      },
+      "solution": {
+        "headline": "A headless architecture simplifies integration and personalization",
+        "text": "WellSpan built its redesigned site using a headless architecture with Sitecore XM and Personalize on React and Next.js. It integrates MyChart, EHR, Prove identity software, and uses rule-based personalization to show tailored content and secure logged-in dashboards."
+      },
+      "outcome": {
+        "headline": "Unified experiences and faster time to market",
+        "text": "With Sitecore at the core of WellSpan\u2019s digital platform, new architecture drove a 20% uplift in new user accounts within two months, faster rollouts, two\u2011week sprint cycles, and better self\u2011service content."
+      },
+      "testimonial": {
+        "quote": "\u201cNow we\u2019re on Sitecore, there\u2019s just so much potential. We\u2019re really excited, both from a technology perspective, and for the efficiency improvements we\u2019re going to achieve.\u201d",
+        "author_name": "Lissa Richards",
+        "author_title": "Senior Director of Digital Experience",
+        "author_company": "WellSpan Health"
+      },
+      "industry": "Healthcare and Life Sciences",
+      "business_model": "B2C",
+      "products": [
+        "XM",
+        "Personalize"
+      ],
+      "stack": [
+        "Next.js",
+        "React"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/wellspan/wellspan-health-customer-success-story",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/c193ccecac04492d93dad905f4b5d00f?v=26b6458b",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/725683e73ee446f4a9431b8dcd6390a2?t=sc1600",
+      "has_video": true,
+      "video_url": "http://webinars.sitecore.com/wellspan-customer-story-video",
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000Z3HpD&d=%2Fa%2FUj000001Yndd%2FM.Rb4eKuSETUXnVp6g604.zftMfcCy6XHy4_vvetm.o",
+      "partner_url": "https://www.allianceinnovations.com",
+      "product_ids": [
+        "xm",
+        "personalize"
+      ],
+      "stack_ids": [
+        "nextjs",
+        "react"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "personalization",
+          "CMS",
+          "integration",
+          "headless"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "mille-lacs-10",
+      "content_type": "Customer Award",
+      "customer_name": "Mille Lacs Corporate Ventures",
+      "title": "Sitecore drives 443% rise in hotel booking initiations",
+      "overview": "Sitecore helped MLCV\u2019s Grand Casinos transform their customer experience, resulting in a 115%+ increase in bookings.",
+      "stats": [
+        {
+          "label": "Hotel booking initiations",
+          "value": "443%"
+        },
+        {
+          "label": "Increase in bookings across all services",
+          "value": "115%+"
+        },
+        {
+          "label": "More time spent on site",
+          "value": "83%"
+        },
+        {
+          "label": "Rise in return site visits",
+          "value": "22%"
+        },
+        {
+          "label": "Fall in abandoned bookings",
+          "value": "53%"
+        }
+      ],
+      "project_brief": "Embracing an innovative business approach, the tribe\u2019s flagship enterprises, Grand Casino Mille Lacs and Grand Casino Hinckley, integrated Sitecore into their digital strategy to increase revenue generation and customer growth.",
+      "challenge": {
+        "headline": "Digitizing the casino",
+        "text": "The strategic update aimed to connect the casinos more effectively with their audiences while enhancing internal omnichannel processes and improving efficiency."
+      },
+      "solution": {
+        "headline": "Fast, flexible design",
+        "text": "To reach Grand Casino's ambitious digital goals, MLCV\u2019s digital innovation group road\u2011mapped a cutting\u2011edge DXP that integrated Sitecore XM Cloud and Sitecore Search to create an agile, effective solution and increase customer engagement and satisfaction."
+      },
+      "outcome": {
+        "headline": "Customer experience transformed",
+        "text": "Grand Casino immediately saw positive results and business impact from implementing Sitecore and improving the customer experience. Hotel booking initiations increased by 443%, overall bookings rose by 115%, return visits grew by 22%, and abandoned bookings dropped by 53%."
+      },
+      "testimonial": {
+        "quote": "Working with Sitecore has been pivotal to achieving our DXP goals. Sitecore\u2019s technology has revolutionized our customer interactions and optimized our internal operations. We've seen a remarkable increase in bookings, customer engagement, and efficiency.",
+        "author_name": "Ryan McGrath",
+        "author_title": "EVP, Digital and Marketing Innovation",
+        "author_company": "Mille Lacs Corporate Ventures"
+      },
+      "industry": "Media and Entertainment",
+      "business_model": "B2C",
+      "products": [
+        "Search",
+        "XM Cloud"
+      ],
+      "stack": [
+        "Sitecore360"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/mille-lacs/sitecore-drives-443-percent-rise-in-hotel-venue-bookings-for-mille-lacs",
+      "partner_url": "https://www.icreon.com",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/1c038175d25f49da865112806457470f?v=e1cf76d7",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/f04d730589874a1cb5b7aca3749b24a5?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=068Uj00000DGMWc&d=%2Fa%2FUj000005YxHK%2FxeD450tJn1DZ_DAA4MJxGdE3818rmow37SAsAKB4qxM&asPdf=false",
+      "product_ids": [
+        "search",
+        "xm-cloud"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement"
+        ],
+        "terms": [
+          "omnichannel",
+          "customer experience",
+          "DXP",
+          "cloud"
+        ]
+      },
+      "persona": "Marketing"
+    },
+    {
+      "id": "loreal-xx",
+      "content_type": "Case Study",
+      "customer_name": "L'Or\u00e9al",
+      "title": "L'Or\u00e9al innovates digital experiences at scale with Sitecore",
+      "overview": "L'Or\u00e9al, a global beauty leader, reengineered its Website Factory with a composable Sitecore DXP to manage 320+ websites across 14 brands, achieving significant improvements in consistency, engagement, content management efficiency, and reduced time to market and costs through automation and GenAI.",
+      "project_brief": "L'Or\u00e9al's Website Factory reengineered its operations by adopting a composable digital experience platform built on Sitecore, in collaboration with Valtech, to streamline content management, accelerate new website rollouts, and enhance customer engagement across its 320+ brand websites.",
+      "stats": [
+        {
+          "label": "Websites managed across brands",
+          "value": "320+ across 14 brands"
+        },
+        {
+          "label": "Webmastering hours saved",
+          "value": "120,000"
+        },
+        {
+          "label": "Localization cost reduction",
+          "value": "75%"
+        },
+        {
+          "label": "Faster new content publishing",
+          "value": "80%"
+        }
+      ],
+      "challenge": {
+        "headline": "Managing a vast digital presence with manual, time-consuming processes",
+        "text": "L'Or\u00e9al faced the challenge of managing over 320 websites across 14 brands, ensuring consistency, engagement, and ease of management. Existing manual processes for content optimization and new website rollouts were time-consuming and costly, hindering their competitive edge in time to market."
+      },
+      "solution": {
+        "headline": "Composable DXP with GenAI for automated content and translation",
+        "text": "L'Or\u00e9al adopted a composable digital experience platform built on Sitecore, enabling integration of GenAI for meta title and description generation and AI-powered translation (GlobalLink by TransPerfect). Automated content distribution across Sitecore XM instances, with a user-friendly interface for local teams, was a key aspect. TwicPics by Frontify and Cloudflare were used for media optimization."
+      },
+      "outcome": {
+        "headline": "Enhanced digital experiences, productivity, and cost reduction at scale",
+        "text": "The Sitecore platform allows L'Or\u00e9al to control digital experiences at scale, driving continuous improvements in user engagement, internal productivity, and cost reduction. Automation of content distribution and translation significantly reduced costs, work hours, and time to market for new content, gaining a competitive advantage."
+      },
+      "testimonial": {
+        "quote": "Sitecore has enabled them to craft unique online experiences for each brand while leveraging enhancements and optimizations across their extensive website portfolio.",
+        "author_name": "Ashley Spiro",
+        "author_title": "Global Head of Website Factory",
+        "author_company": "L'Or\u00e9al"
+      },
+      "industry": "Consumer Goods",
+      "business_model": "B2C",
+      "products": [
+        "XM"
+      ],
+      "stack": [
+        "GenAI",
+        "GlobalLink by TransPerfect",
+        "OpenAI GPT",
+        "TwicPics by Frontify",
+        "Cloudflare"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/loreal/loreal-innovates-digital-experiences-at-scale-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/e6534edbf53a431c8327233e34ea3055?v=891a462f",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/932d467d7e684c7f9610f80276bf3096?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=068Hu00000XUfcd&d=%2Fa%2FUj000000qZOH%2FME.gERyIqUzkPlTAjnt4NSnTeJMc5byO8c28VaeziNM&asPdf=false",
+      "partner_url": "http://www.valtech.com/",
+      "product_ids": [
+        "xm"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Operational Consolidation",
+          "Time to Market / Efficiency",
+          "Cost Reduction",
+          "Audience Engagement"
+        ],
+        "terms": [
+          "composable",
+          "digital transformation",
+          "content management",
+          "DXP",
+          "integration",
+          "user experience",
+          "SEO",
+          "automation"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "bayer-07",
+      "content_type": "Customer Award",
+      "customer_name": "Bayer",
+      "title": "Bayer\u2019s Sitecore-powered intranet delivers \u20ac600k yearly savings",
+      "overview": "World\u2011leading life sciences firm consolidates 300 portals into a single personalized intranet, cutting annual costs by 46% and saving \u20ac600\u202fk.",
+      "project_brief": "Every morning Judyta Brauer, Project Manager at Bayer in Poland, logs into the BayerNet corporate intranet and is presented with news, information, and resources personalized entirely for her... All this is enabled by a Sitecore\u2011powered DXP that consolidated multiple separate portals and CMS applications into a single centralized platform...",
+      "stats": [
+        {
+          "label": "Annual cost saving",
+          "value": "\u20ac600\u202fk"
+        },
+        {
+          "label": "Cut in yearly costs",
+          "value": "46%"
+        },
+        {
+          "label": "Less content",
+          "value": "70%"
+        },
+        {
+          "label": "Best\u2011in\u2011class intranet categories",
+          "value": "6 of 9"
+        },
+        {
+          "label": "Benchmark score",
+          "value": "41.5 vs 38.1 average"
+        }
+      ],
+      "challenge": {
+        "headline": "Support 90,000 employees in 80 countries",
+        "text": "Bayer was using 300 portals across four CMS solutions, resulting in static homepages, extensive navigation and limited localization. Employees were frustrated and analytics/operations were costly and inefficient."
+      },
+      "solution": {
+        "headline": "Consolidate 300 portals and four CMS",
+        "text": "Bayer implemented a Sitecore\u2011powered DXP to unify 300 portals and four CMS solutions into a single intranet called BayerNet. This solution, built with Sitecore and Tata Consultancy Services, integrated with SAP, ServiceNow, and Microsoft, creating a global editorial process supported by one cross\u2011functional team."
+      },
+      "outcome": {
+        "headline": "90,000 personalized homepages",
+        "text": "Employees now receive tailored homepages and newsletters, content duplication dropped 70%, annual costs fell from \u20ac1.3\u202fM to \u20ac700\u202fk, and BayerNet achieved best\u2011in\u2011class scores in 6 of 9 benchmark categories (41.5 vs 38.1)."
+      },
+      "testimonial": {
+        "quote": "\u201cThe intranet transformation has greatly improved employee experience and engagement. Its immense scale and proven success make it a pivotal achievement for our team and the company.\u201d",
+        "author_name": "Christophe Kampa",
+        "author_title": "Head of Content & Channels",
+        "author_company": "Bayer"
+      },
+      "industry": "Healthcare and Life Sciences",
+      "business_model": "B2B",
+      "products": [
+        "XP"
+      ],
+      "stack": [
+        "Microsoft",
+        "SAP",
+        "ServiceNow"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/bayer/bayers-sitecore-powered-intranet-deliver-600k-yearly-savings",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/5140f5990d384f62a788012e416786f3?v=977e5f08",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/e6604789bef9499387c81d2ca4f5c0f0?t=sc1600",
+      "has_video": true,
+      "video_url": "https://webinars.sitecore.com/64968577/113783516/93294d51b06371d7164e277d7f3fce11/video_hd/digitalexperienceexcellencebayerv06-8-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67",
+      "has_partner": true,
+      "partner_logo": "",
+      "persona": "Marketing",
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement"
+        ],
+        "terms": [
+          "analytics",
+          "CMS",
+          "DXP"
+        ]
+      }
+    },
+    {
+      "id": "polimi-gsom-21",
+      "content_type": "Customer Award",
+      "customer_name": "Polimi GSoM",
+      "title": "POLIMI GSoM achieves digital transformation in 6 months with Sitecore",
+      "overview": "Global top\u2011100 business school delivers 100% better operational efficiency, 300% faster website, and cuts time to revenue to 5 minutes.",
+      "project_brief": "To maintain its reputation as a world\u2011leading business school, it has transformed its student experience with Sitecore. Students now have far better access to course information and a simpler and faster route to learning enrollment and learning success.",
+      "stats": [
+        {
+          "label": "Months to deliver digital transformation",
+          "value": "6"
+        },
+        {
+          "label": "Time to complete student enrollment",
+          "value": "5\u202fminutes"
+        },
+        {
+          "label": "Faster web page loads",
+          "value": "300%"
+        },
+        {
+          "label": "Cut in content management costs",
+          "value": ">100%"
+        },
+        {
+          "label": "Operational performance improvement",
+          "value": "100%"
+        }
+      ],
+      "challenge": {
+        "headline": "Mending disparate solutions",
+        "text": "But it was hindered by disparate solutions across various customer services, leading to fragmented experiences and operational inefficiencies. Several student\u2011facing frontend technologies were complex to manage and inconsistent for users. Data flow and operations were stifled by poor integration between internal and external systems."
+      },
+      "solution": {
+        "headline": "Delivering a unified experience",
+        "text": "Collaborating with Sitecore and its business partner Avanade, POLIMI GSoM has deployed Sitecore OrderCloud, Sitecore Search, Sitecore XM Cloud, and Sitecore Personalize. It has established a unified experience for website navigation and commerce... The Sitecore DXP integrates with the Microsoft Dynamics 365 CRM application... The headless and Next.js technology allowed more development flexibility and faster time to market..."
+      },
+      "outcome": {
+        "headline": "Digital transformation in just 6 months",
+        "text": "Integrating ecommerce and a new payment system into the new website has automated sales and cut time from sale to enrolled student to just five minutes. Consolidating previous systems onto the Sitecore DXP... means website, ecommerce, and student services are managed via one front end..."
+      },
+      "testimonial": {
+        "quote": "The unified approach to digital transformation delivered by Sitecore and Avanade not only enhances operational efficiency by eliminating manual data duplication and errors, but also promises to elevate user experiences.",
+        "author_name": "Luigi Gangitano",
+        "author_title": "Chief of Digital Innovation",
+        "author_company": "POLIMI GSoM"
+      },
+      "industry": "Education",
+      "business_model": "B2C",
+      "products": [
+        "OrderCloud",
+        "Search",
+        "XM Cloud",
+        "Personalize"
+      ],
+      "stack": [
+        "Microsoft",
+        "Next.js"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/polimi/polimi-gsom-achieves-digital-transformation-in-6-months-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/e1179b77ec334bc7babff56f0091b937?v=2a10808a",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/46a6d681b9244f9c88fd833e71001dce?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=068Uj00000CaN5d&d=%2Fa%2FUj000004LNXC%2FZM_u.6ihXWliRkZjjOmSaoqj4UWNeQp8xWFRVHloWIg&asPdf=false",
+      "partner_url": "https://www.avanade.com",
+      "product_ids": [
+        "ordercloud",
+        "search",
+        "xm-cloud",
+        "personalize"
+      ],
+      "stack_ids": [
+        "ms-dynamics",
+        "nextjs"
+      ],
+      "glossary_keys": {
+        "impacts": [
+          "Cost Reduction",
+          "Performance Improvement",
+          "Time to Market / Efficiency"
+        ],
+        "terms": [
+          "user experience",
+          "digital transformation",
+          "content management",
+          "DXP",
+          "integration"
+        ]
+      },
+      "persona": "IT"
+    },
+    {
+      "id": "unbound-story-30",
+      "content_type": "Customer success story",
+      "customer_name": "Unbound",
+      "title": "Unbound empowers more families to overcome poverty with Sitecore",
+      "overview": "Enhanced digital engagement boosts donations and sponsorship, so nonprofit organization can help more families in need.",
+      "project_brief": "Unbound partners with families in poverty, providing financial support to help them achieve self-sufficiency. Having used Sitecore since 2009, it upgraded to Sitecore XP in 2023, enabling personalized digital experiences for sponsors and empowering marketing teams to manage content updates. By streamlining processes, enhancing donor engagement, and adopting a digital-first approach, Unbound can expand its reach, increase donations, and help more families in need.",
+      "stats": [
+        {
+          "label": "website visits every year",
+          "value": "1 million"
+        },
+        {
+          "label": "of sponsor experience now via website",
+          "value": "90%"
+        },
+        {
+          "label": "of donors now select digital engagement",
+          "value": "70%"
+        },
+        {
+          "label": "sponsors across the US",
+          "value": "200,000"
+        }
+      ],
+      "challenge": {
+        "headline": "Driving digital engagement to direct more money to families in need",
+        "text": "Unbound partners with families living in poverty, providing financial support to help them achieve self-sufficiency and realize their potential. Rated A+ by CharityWatch and highly ranked by Charity Navigator, Candid, and GreatNonprofits, Unbound channels funds raised through sponsorship programs directly to families, empowering them to invest in education, home improvements, or small businesses. Traditionally, Unbound\u2019s donor communications relied heavily on paper, including mailed letters, printed receipts, and phone-based sponsor experiences. To enhance sponsor engagement, reduce costs, and direct more funds to families in need, Unbound decided to expand its digital approach. The organization also aims to attract a younger generation of sponsors by building stronger digital capabilities."
+      },
+      "solution": {
+        "headline": "Dynamic digital content transforms sponsor experiences",
+        "text": "Since 2009, Unbound has trusted Sitecore solutions to power its website. In 2023, the organization upgraded to Sitecore XP as part of its digital transformation. This upgrade was completed seamlessly, with zero downtime, ensuring uninterrupted user experiences and safeguarding the continuity of online donations. In December 2023, Unbound introduced a new feature powered by Sitecore XP that allows supporters to explore its \u2018Agents of Change\u2019 proposals and directly fund initiatives they are passionate about. These proposals represent small, local projects with the potential to create meaningful community transformation. Using Sitecore, Unbound delivers dynamic content tailored to website users and can update it rapidly. This capability is crucial since 90% of the sponsor experience now occurs online. Sponsors can access video messages from sponsored families and receive regular updates that deepen engagement. The platform also personalizes content. For example, users interested in education will see information about the scholarship program, while those drawn to community development are presented with details on Agents of Change projects. During emergencies, such as natural disasters, Unbound can swiftly create and launch campaigns to raise funds for those in need. Unbound continues to invest in a digital-first approach. In 2024, it introduced a QR code for its appeals process, enabling digital sign-ups, and added a Zendesk-powered chatbot to its website. The organization has also launched SMS campaigns with direct links to its website, making it as simple as possible for supporters to donate."
+      },
+      "outcome": {
+        "headline": "Better engagement boosts fundraising",
+        "text": "With its new website built on Sitecore, Unbound delivers digital experiences that resonate with donors and sponsors. The organization\u2019s website welcomes one million visits annually, offering each user a personalized experience - whether they are looking to sponsor a family, learn more about Unbound\u2019s activities, or contribute to an Agents of Change proposal. Since its inception, the Agents of Change program has funded more than 2,200 initiatives. In 2023 alone, 543 community improvement projects were completed across 15 countries, supported by more than $522,000 in grant funding. Using Sitecore XP also enhances internal operations. The platform empowers the marketing team to independently update web pages without relying on developers. This streamlines workflows, enables faster updates, and allows developers to focus on more complex projects. By combining cost savings from its digital-first approach with stronger engagement, Unbound is able to reach new audiences, boost fundraising efforts, and support more families in need."
+      },
+      "testimonial": {
+        "quote": "With Sitecore, we\u2019ve improved digital engagement with our sponsors, increased efficiency, and reduced our costs, which helps us direct more funds to families in need.",
+        "author_name": "Andie Ewing",
+        "author_title": "Chief Operating Officer",
+        "author_company": "Unbound"
+      },
+      "industry": "Nonprofit",
+      "business_model": "B2C",
+      "products": [
+        "XP"
+      ],
+      "stack": [],
+      "url": "https://www.sitecore.com/explore/customers/unbound/unbound-improves-digital-experiences-for-donors-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b16828f2f6134447b3495f76e0385953?v=d15c1e94",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/3f265b8fcdf044a1ab7cb08bd89e1b72?t=sc1600",
+      "has_video": true,
+      "video_url": "https://webinars.sitecore.com/64968560/107235592/4ee624fee9b9d0caed8fbefd7f9ae0db/video_hd/sitecore-giving-tuesday-10-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67",
+      "has_partner": false,
+      "partner_logo": "",
+      "partner_url": "",
+      "product_ids": [
+        "experience-platform"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement"
+        ],
+        "terms": [
+          "user experience",
+          "campaign",
+          "digital transformation",
+          "API",
+          "dynamic content"
+        ]
+      },
+      "persona": "Business"
+    },
+    {
+      "id": "achmea-xx",
+      "content_type": "Customer Story",
+      "customer_name": "Achmea",
+      "title": "Achmea achieves 30% growth in digital pensions with Sitecore",
+      "overview": "Achmea's Pension & Life division (dP&L) transformed its website using Sitecore Experience Platform (XP) 10.3, leading to significant growth in digital pensions, improved personalized pension plans, increased new site visits, longer time spent on site, more returning visitors, streamlined employee workflows, and increased content management efficiency.",
+      "project_brief": "By upgrading to Sitecore Experience Platform (XP) 10.3 with the help of implementation partner HCLTech, Achmea transformed its website to offer self-service features and automation, digitalizing its My Future pension management program.",
+      "stats": [
+        {
+          "label": "Growth in digital pensions",
+          "value": "30%"
+        },
+        {
+          "label": "Improved personalized pension plans",
+          "value": "Yes"
+        },
+        {
+          "label": "Increased new site visits",
+          "value": "Yes"
+        },
+        {
+          "label": "Longer time spent on site",
+          "value": "Yes"
+        },
+        {
+          "label": "More returning visitors",
+          "value": "Yes"
+        },
+        {
+          "label": "Streamlined employee workflows",
+          "value": "Yes"
+        },
+        {
+          "label": "Increased content management efficiency",
+          "value": "Yes"
+        }
+      ],
+      "challenge": {
+        "headline": "Enhancing online customer engagement and digitalizing pension management",
+        "text": "Achmea aimed to enhance online customer engagement through personalization and automation, and to digitalize its My Future pension management program, moving away from traditional, less efficient methods."
+      },
+      "solution": {
+        "headline": "Upgrading to Sitecore Experience Platform (XP) 10.3 for self-service and automation",
+        "text": "Achmea upgraded to Sitecore Experience Platform (XP) 10.3, collaborating with implementation partner HCLTech, to transform its website by introducing self-service features and automation."
+      },
+      "outcome": {
+        "headline": "Significant growth in digital pensions and improved efficiency",
+        "text": "The transformation resulted in significant growth in digital pensions, improved personalized pension plan delivery, increased new site visits, longer time on site, and more returning visitors. Additionally, employee workflows were streamlined, and content management efficiency increased."
+      },
+      "testimonial": {
+        "quote": "We took a cross-functional approach to successfully lead the Pensions division through change and digital innovation to achieve their strategic priorities.",
+        "author_name": "Arie Bijlsma",
+        "author_title": "Team Manager of IT Keten dP&L Change",
+        "author_company": "Achmea"
+      },
+      "industry": "Financial Services",
+      "business_model": "B2C",
+      "products": [
+        "XP"
+      ],
+      "stack": [
+        "JSS",
+        "Microsoft"
+      ],
+      "url": "https://www.sitecore.com/explore/customers/achmea/achmea-achieves-30-percent-growth-in-digital-pensions-with-sitecore",
+      "logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/9d404f4d9698411c892a8f293a03322e?v=89bb3db4",
+      "image_url": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/081473b791b949a48f168d10bfba7609?t=sc1600",
+      "has_video": false,
+      "video_url": null,
+      "has_partner": true,
+      "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000VlhRa&d=%2Fa%2FUj000003p2Iz%2FJ_EXCy.nrMCIrMtK7aXhcFOCTr_SHxVFh_yP2LkoSeA&asPdf=false",
+      "partner_url": "https://www.hcltech.com/",
+      "product_ids": [
+        "experience-platform"
+      ],
+      "stack_ids": [],
+      "glossary_keys": {
+        "impacts": [
+          "Audience Engagement",
+          "Time to Market / Efficiency",
+          "Revenue Growth"
+        ],
+        "terms": [
+          "personalization",
+          "digital transformation",
+          "content management",
+          "user experience",
+          "CMS"
+        ]
+      },
+      "persona": "IT"
+    }
+  ],
+  "products": [
+    {
+      "id": "xm-cloud",
+      "name": "Sitecore XM Cloud",
+      "description": "A cloud-native, headless CMS that offers unparalleled scalability and agility for creating and delivering omnichannel content. It is Sitecore's flagship SaaS CMS.",
+      "video_url": "http://webinars.sitecore.com/sitecore-xm-cloud-real-world"
+    },
+    {
+      "id": "content-hub",
+      "name": "Sitecore Content Hub",
+      "description": "A comprehensive solution for content strategy, planning, creation, and management, including Digital Asset Management (DAM), Content Marketing Platform (CMP), and Product Content Management (PCM).",
+      "video_url": "http://webinars.sitecore.com/sitecore-content-hub-product-video-1"
+    },
+    {
+      "id": "cdp",
+      "name": "Sitecore CDP",
+      "description": "A customer data platform that collects and unifies real-time customer data from all sources to create a single, coherent view of each customer. It supports real-time segmentation and data activation.",
+      "video_url": "https://webinars.sitecore.com/64968579/95063896/5c1c21380abfc74a3ff3d0f5cfbae037/video_hd/sitecore-cdp-personalize-11-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67"
+    },
+    {
+      "id": "personalize",
+      "name": "Sitecore Personalize",
+      "description": "A tool for delivering personalized, omnichannel experiences. It uses data from Sitecore CDP to trigger real-time, rule-based, and AI-driven personalization across websites, mobile apps, and other channels.",
+      "video_url": "https://webinars.sitecore.com/64968579/95063896/5c1c21380abfc74a3ff3d0f5cfbae037/video_hd/sitecore-cdp-personalize-11-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67"
+    },
+    {
+      "id": "search",
+      "name": "Sitecore Search",
+      "description": "An AI-powered, headless search solution that provides relevant and personalized search results for websites. It helps users find content and products quickly and efficiently.",
+      "video_url": "http://webinars.sitecore.com/sitecore-search-1"
+    },
+    {
+      "id": "ordercloud",
+      "name": "Sitecore OrderCloud",
+      "description": "A composable, API-first, and headless ecommerce platform designed for complex B2B, B2C, and B2B2C commerce scenarios. It offers high flexibility for creating custom commerce solutions.",
+      "video_url": "https://webinars.sitecore.com/64968571/92430064/3d47849e01a7dc56353117dba653a816/video_hd/sitecore-ordercloud-real-world-10-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67"
+    },
+    {
+      "id": "discover",
+      "name": "Sitecore Discover",
+      "description": "An AI-driven product discovery tool for commerce that provides individualized search results and recommendations, helping to increase conversions and average order value.",
+      "video_url": null
+    },
+    {
+      "id": "xp",
+      "name": "Sitecore Experience Platform (XP)",
+      "description": "Sitecore's traditional all-in-one Digital Experience Platform (DXP), combining content management, marketing automation, analytics, and personalization in a single, tightly integrated platform.",
+      "video_url": null
+    },
+    {
+      "id": "xm",
+      "name": "Sitecore Experience Manager (XM)",
+      "description": "The core Content Management System (CMS) component of Sitecore XP, focused on managing and delivering content across multiple websites. It is the foundational layer of the Experience Platform.",
+      "video_url": null
+    },
+    {
+      "id": "stream",
+      "name": "Sitecore Stream",
+      "description": "Transform your content-experience lifecycle with brand-aware AI, copilots and agents, and agentic workflows to work smarter, more strategically, and more securely.",
+      "video_url": "https://webinars.sitecore.com/64968558/105380011/07f8cf17eb0dde1ac605ba4f2db8d32d/video_hd/download-10-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67"
+    },
+    {
+      "id": "managed-cloud",
+      "name": "Managed Cloud",
+      "description": "A hosting service for Sitecore XP/XM that provides infrastructure management, scaling, and deployment support in the Microsoft Azure cloud, enabling teams to focus on development rather than operations.",
+      "video_url": null
+    }
+  ],
+  "stack": [
+    {
+      "id": "ms-dynamics",
+      "name": "Microsoft Dynamics 365",
+      "description": "A suite of intelligent business applications (CRM and ERP) from Microsoft for managing core business processes like sales, customer service, and finance.",
+      "primary_use": "Acts as the core Customer Relationship Management (CRM) system, feeding customer data, sales history, and service interactions into the DXP for personalization."
+    },
+    {
+      "id": "marketo",
+      "name": "Adobe Marketo Engage",
+      "description": "A marketing automation platform that helps companies manage and nurture leads, orchestrate customer journeys, and prove marketing's impact.",
+      "primary_use": "Manages lead nurturing and email marketing campaigns that drive users to experiences built on the DXP, and receives data back from the DXP to score leads."
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce CRM",
+      "description": "A cloud-based Customer Relationship Management (CRM) platform that provides a single, shared view of every customer for all departments.",
+      "primary_use": "Serves as the central repository for customer data and sales funnels, integrating with the DXP to personalize user journeys and capture new leads."
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "description": "A cloud platform for frontend frameworks and static sites, known for its seamless integration with Next.js and its focus on developer experience and high-performance hosting.",
+      "primary_use": "Serves as the high-performance hosting and deployment platform for the 'head' (the frontend application) in a headless DXP architecture."
+    },
+    {
+      "id": "bynder",
+      "name": "Bynder",
+      "description": "A cloud-based Digital Asset Management (DAM) platform that helps brands create, find, and use digital content.",
+      "primary_use": "Acts as a centralized Digital Asset Management (DAM) system, storing all media (images, videos) that is then pulled into the DXP for use in content and experiences."
+    },
+    {
+      "id": "gcp",
+      "name": "Google Cloud Platform (GCP)",
+      "description": "A suite of cloud computing services offered by Google, providing a series of modular cloud services including computing, data storage, data analytics, and machine learning.",
+      "primary_use": "Provides scalable backend infrastructure, data storage, or specialized AI/ML services that integrate with and support the DXP."
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "description": "A popular open-source React framework that enables functionalities such as server-side rendering and generating static websites for React-based web applications.",
+      "primary_use": "The primary framework for building the user-facing website or application that consumes content from the DXP's APIs in a headless implementation."
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "description": "An open-source JavaScript library for building user interfaces or UI components, maintained by Facebook and a community of individual developers and companies.",
+      "primary_use": "The foundational JavaScript library used to build the interactive UI components for the frontend application in a headless DXP setup."
+    },
+    {
+      "id": "azure",
+      "name": "Microsoft Azure",
+      "description": "Microsoft's cloud computing platform, offering a wide range of services including computing, analytics, storage, and networking. It's often used for hosting applications and managing enterprise infrastructure.",
+      "primary_use": "Provides scalable cloud hosting for the DXP itself or for related backend services, databases, and identity management (Azure AD)."
+    },
+    {
+      "id": "sap",
+      "name": "SAP",
+      "description": "An enterprise resource planning (ERP) software company that provides solutions for managing business operations and customer relations.",
+      "primary_use": "Integrates business-critical data such as product information (PIM), inventory, and pricing into the DXP, especially for complex e-commerce solutions."
+    },
+    {
+      "id": "servicenow",
+      "name": "ServiceNow",
+      "description": "A cloud platform that provides digital workflows to manage and automate IT, employee, and customer-related business processes.",
+      "primary_use": "Manages customer service workflows, allowing the DXP to integrate with support ticketing systems or power self-service help portals."
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft Ecosystem",
+      "description": "General integration with Microsoft's suite of enterprise products, including Azure cloud services, business applications, and other tools.",
+      "primary_use": "General enterprise integration for identity services (Azure AD), productivity tools (M365), and various business applications that feed data into the DXP."
+    },
+    {
+      "id": "sitecore-360",
+      "name": "Sitecore 360",
+      "description": "A comprehensive customer success plan from Sitecore that provides expert support, resources, and strategic guidance to help customers maximize the value of their Sitecore investment.",
+      "primary_use": "A support and success service, not a technology. It provides expert guidance for optimizing the implementation and strategy of the DXP itself."
+    },
+    {
+      "id": "jss",
+      "name": "Sitecore JavaScript Services (JSS)",
+      "description": "A complete SDK for JavaScript developers that enables building full-fledged solutions using Sitecore and modern JavaScript UI libraries and frameworks like React, Angular, and Vue.",
+      "primary_use": "Acts as the toolkit and SDK for connecting a JavaScript-based frontend application (the 'head') to the Sitecore backend in a headless architecture, managing data fetching and context."
+    }
+  ],
+  "glossary": [
+    {
+      "key": "dam",
+      "term": "Digital Asset Management (DAM)",
+      "definition": "A system for organizing, storing, and retrieving rich media like images, videos, and documents. It acts as a centralized library to ensure brand consistency."
+    },
+    {
+      "key": "crm",
+      "term": "Customer Relationship Management (CRM)",
+      "definition": "Software that helps companies manage and analyze customer interactions and data throughout the customer lifecycle, with the goal of improving business relationships."
+    },
+    {
+      "key": "on-premises",
+      "term": "On-Premises",
+      "definition": "Software and technology that is located within the physical confines of an enterprise, often in the company's own data center, as opposed to running remotely on cloud infrastructure."
+    },
+    {
+      "key": "composable-dxp",
+      "term": "Composable DXP",
+      "definition": "A modern Digital Experience Platform built from a selection of best-of-breed, interconnected technologies using APIs. It allows businesses to flexibly choose and swap out components."
+    },
+    {
+      "key": "saas",
+      "term": "Software as a Service (SaaS)",
+      "definition": "A software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted in the cloud by the provider."
+    },
+    {
+      "key": "cloud",
+      "term": "Cloud-Native",
+      "definition": "An approach to building and running applications to take full advantage of the cloud computing delivery model. These applications are built in and for the cloud."
+    },
+    {
+      "key": "omnichannel",
+      "term": "Omnichannel",
+      "definition": "A multichannel approach to sales and marketing that seeks to provide customers with a seamless, integrated experience, whether they are shopping online from a desktop or mobile device, by telephone, or in a brick-and-mortar store."
+    },
+    {
+      "key": "headless",
+      "term": "Headless Architecture",
+      "definition": "A decoupled approach where the content repository (the 'body') is separated from the presentation layer (the 'head'), allowing content to be delivered to any device or channel via APIs."
+    },
+    {
+      "key": "ai",
+      "term": "Artificial Intelligence (AI)",
+      "definition": "The simulation of human intelligence in machines, programmed to think like humans and mimic their actions. In a DXP context, it's often used for personalization, search, and content recommendations."
+    },
+    {
+      "key": "personalization",
+      "term": "Personalization",
+      "definition": "The process of tailoring content, products, and communications to the specific needs and preferences of individual users, often based on their Browse behavior, purchase history, and demographic data."
+    },
+    {
+      "key": "e-commerce",
+      "term": "E-commerce",
+      "definition": "The buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions."
+    },
+    {
+      "key": "dxp",
+      "term": "Digital Experience Platform (DXP)",
+      "definition": "An integrated set of core technologies that support the composition, management, delivery, and optimization of contextualized digital experiences."
+    },
+    {
+      "key": "cms",
+      "term": "Content Management System (CMS)",
+      "definition": "A software application that can be used to manage the creation and modification of digital content. It's often the foundational component of a DXP."
+    },
+    {
+      "key": "intranet",
+      "term": "Intranet",
+      "definition": "A private network contained within an enterprise that is used to securely share company information and computing resources among employees."
+    },
+    {
+      "key": "technical-debt",
+      "term": "Technical Debt",
+      "definition": "The implied cost of rework caused by choosing an easy, limited solution now instead of using a better approach that would take longer. It can lead to instability and difficulty in making future updates."
+    },
+    {
+      "key": "microservices",
+      "term": "Microservices Architecture",
+      "definition": "An architectural style that structures an application as a collection of loosely coupled, independently deployable services. This is a key principle of composable systems."
+    },
+    {
+      "key": "nps",
+      "term": "Net Promoter Score (NPS)",
+      "definition": "A market research metric that asks respondents to rate the likelihood that they would recommend a company, product, or a service to a friend or colleague on a scale of 0-10."
+    },
+    {
+      "key": "ehr",
+      "term": "Electronic Health Record (EHR)",
+      "definition": "A digital version of a patient's paper chart. EHRs are real-time, patient-centered records that make information available instantly and securely to authorized users."
+    },
+    {
+      "key": "api-first",
+      "term": "API-First",
+      "definition": "A development approach where the primary focus is on building robust and reusable Application Programming Interfaces (APIs), which then serve as the foundation for all other applications and experiences."
+    },
+    {
+      "key": "b2b",
+      "term": "Business-to-Business (B2B)",
+      "definition": "A business model where companies sell products or services directly to other businesses, rather than to individual consumers."
+    },
+    {
+      "key": "b2c",
+      "term": "Business-to-Consumer (B2C)",
+      "definition": "A business model where companies sell products or services directly to individual consumers for their personal use."
+    },
+    {
+      "key": "cx",
+      "term": "Customer Experience (CX)",
+      "definition": "The overall perception a customer has of a company or its brands, based on all interactions and touchpoints throughout the customer journey."
+    },
+    {
+      "key": "digital-first",
+      "term": "Digital-First",
+      "definition": "An organizational strategy that prioritizes digital channels for communication, marketing, and service delivery over traditional methods like print or in-person interactions."
+    }
+  ]
+}
