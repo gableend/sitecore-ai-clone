@@ -299,14 +299,14 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
 
   // Auto-play functionality
   useEffect(() => {
-    if (!isAutoPlay || isPaused || filteredCaseStudies.length <= cardsPerView) return
+    if (!isAutoPlay || isPaused || filteredCaseStudies.length < cardsPerView) return
 
     const interval = setInterval(() => {
-      nextSlide()
+      setCurrentIndex(prev => (prev + cardsPerView) % filteredCaseStudies.length)
     }, 5000) // Auto-advance every 5 seconds
 
     return () => clearInterval(interval)
-  }, [isAutoPlay, isPaused, filteredCaseStudies.length, currentIndex])
+  }, [isAutoPlay, isPaused, filteredCaseStudies.length, cardsPerView])
 
   const totalFilters = selectedBusinessModels.length + selectedPersonas.length
 
