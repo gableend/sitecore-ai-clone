@@ -524,14 +524,215 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
                 <>
                   {/* Case Studies Display */}
                   {filteredCaseStudies.length > 0 ? (
-                    <div className="text-center py-8">
-                      <div className="text-white">
-                        Showing {filteredCaseStudies.length} case studies
+                    <>
+                      {/* Case Studies Carousel */}
+                      <div
+                        className="relative"
+                        onMouseEnter={() => setIsPaused(true)}
+                        onMouseLeave={() => setIsPaused(false)}
+                      >
+                        {/* Navigation Arrows */}
+                        {filteredCaseStudies.length > 1 && (
+                          <>
+                            <button
+                              onClick={prevSlide}
+                              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 rounded-full p-3 transition-all duration-200 hover:scale-110"
+                              aria-label="Previous case studies"
+                            >
+                              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                              </svg>
+                            </button>
+                            <button
+                              onClick={nextSlide}
+                              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 rounded-full p-3 transition-all duration-200 hover:scale-110"
+                              aria-label="Next case studies"
+                            >
+                              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                              </svg>
+                            </button>
+                          </>
+                        )}
+
+                        {/* Carousel Container */}
+                        <div className="overflow-hidden mx-12">
+                          <div
+                            className="flex transition-transform duration-500 ease-in-out gap-6"
+                            style={{ transform: `translateX(-${currentIndex * (100/3)}%)` }}
+                            onTouchStart={handleTouchStart}
+                            onTouchMove={handleTouchMove}
+                            onTouchEnd={handleTouchEnd}
+                          >
+                            {filteredCaseStudies && Array.isArray(filteredCaseStudies) && filteredCaseStudies.map((study) => {
+                              return (
+                                <Card
+                                  key={study.id}
+                                  className="group bg-white/10 border-white/20 backdrop-blur-sm hover:bg-white/15 transition-all duration-300 overflow-hidden cursor-pointer flex-shrink-0 w-1/3 max-w-sm hover:scale-105"
+                                  onClick={() => openModal(study)}
+                                >
+                                  {/* Background Image Section */}
+                                  <div
+                                    className="relative h-48 bg-gradient-to-br from-purple-600/20 to-blue-600/20"
+                                    style={{
+                                      backgroundImage: study.image_url ? `url(${study.image_url})` : undefined,
+                                      backgroundSize: 'cover',
+                                      backgroundPosition: 'center',
+                                      backgroundRepeat: 'no-repeat'
+                                    }}
+                                  >
+                                    {/* Overlay for text readability */}
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20"></div>
+
+                                    {/* Top badges */}
+                                    <div className="absolute top-4 left-4 right-4 flex flex-wrap items-start gap-2 z-10">
+                                      {/* Business Model Badges */}
+                                      {study.business_model === 'Both' ? (
+                                        <>
+                                          <Badge
+                                            variant="outline"
+                                            className={`backdrop-blur-sm text-white border transition-all duration-200 text-xs ${
+                                              selectedBusinessModels.includes('B2B')
+                                                ? 'bg-purple-600 border-purple-500 shadow-lg shadow-purple-600/25 ring-1 ring-purple-400/50'
+                                                : 'bg-purple-600/40 border-purple-500/40'
+                                            }`}
+                                          >
+                                            B2B
+                                          </Badge>
+                                          <Badge
+                                            variant="outline"
+                                            className={`backdrop-blur-sm text-white border transition-all duration-200 text-xs ${
+                                              selectedBusinessModels.includes('B2C')
+                                                ? 'bg-purple-600 border-purple-500 shadow-lg shadow-purple-600/25 ring-1 ring-purple-400/50'
+                                                : 'bg-purple-600/40 border-purple-500/40'
+                                            }`}
+                                          >
+                                            B2C
+                                          </Badge>
+                                        </>
+                                      ) : (
+                                        <Badge
+                                          variant="outline"
+                                          className={`backdrop-blur-sm text-white border transition-all duration-200 text-xs ${
+                                            selectedBusinessModels.includes(study.business_model)
+                                              ? 'bg-purple-600 border-purple-500 shadow-lg shadow-purple-600/25 ring-1 ring-purple-400/50'
+                                              : 'bg-purple-600/40 border-purple-500/40'
+                                          }`}
+                                        >
+                                          {study.business_model}
+                                        </Badge>
+                                      )}
+
+                                      {/* Industry Badge */}
+                                      <Badge
+                                        variant="outline"
+                                        className="backdrop-blur-sm text-white border bg-green-600/40 border-green-500/40 transition-all duration-200 text-xs"
+                                      >
+                                        {study.industry}
+                                      </Badge>
+
+                                      {/* Persona Badge */}
+                                      <Badge
+                                        variant="outline"
+                                        className={`backdrop-blur-sm text-white border transition-all duration-200 text-xs ${
+                                          selectedPersonas.includes(study.persona)
+                                            ? 'bg-blue-600 border-blue-500 shadow-lg shadow-blue-600/25 ring-1 ring-blue-400/50'
+                                            : 'bg-blue-600/20 border-blue-200/30'
+                                        }`}
+                                      >
+                                        {study.persona}
+                                      </Badge>
+                                    </div>
+
+                                    {/* Customer Name at bottom */}
+                                    <div className="absolute bottom-4 left-4 right-4 z-10">
+                                      <h3 className="text-white text-lg font-bold leading-tight drop-shadow-lg">
+                                        {study.customer_name}
+                                      </h3>
+                                    </div>
+
+                                    {/* Video indicator badge */}
+                                    {study.has_video && (
+                                      <div className="absolute bottom-4 right-4 z-10">
+                                        <Badge className="bg-red-600 text-white border-red-500 backdrop-blur-sm text-xs">
+                                          VIDEO
+                                        </Badge>
+                                      </div>
+                                    )}
+
+                                    {/* Click to view indicator */}
+                                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                      <div className="bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg">
+                                        {study.has_video ? (
+                                          <svg className="w-6 h-6 text-purple-700" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M8 5v14l11-7z"/>
+                                          </svg>
+                                        ) : (
+                                          <svg className="w-6 h-6 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                          </svg>
+                                        )}
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  {/* Card Content */}
+                                  <CardContent className="p-4">
+                                    {/* Testimonial Quote */}
+                                    {study.testimonial && (
+                                      <blockquote className="text-gray-300 italic text-sm line-clamp-3">
+                                        "{study.testimonial.quote}"
+                                      </blockquote>
+                                    )}
+                                  </CardContent>
+                                </Card>
+                              )
+                            })}
+                          </div>
+                        </div>
+
+                        {/* Navigation Dots with Auto-play Controls */}
+                        {filteredCaseStudies.length > 1 && (
+                          <div className="flex justify-center items-center gap-4 mt-6">
+                            <div className="flex space-x-2">
+                              {filteredCaseStudies.map((_, index) => {
+                                const isActive = currentIndex === index
+                                return (
+                                  <button
+                                    key={index}
+                                    onClick={() => goToSlide(index)}
+                                    className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                                      isActive
+                                        ? 'bg-purple-500 scale-110'
+                                        : 'bg-white/30 hover:bg-white/50'
+                                    }`}
+                                    aria-label={`Go to case study ${index + 1}`}
+                                  />
+                                )
+                              })}
+                            </div>
+
+                            {/* Auto-play Controls */}
+                            <button
+                              onClick={() => setIsAutoPlay(!isAutoPlay)}
+                              className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 rounded-full p-2 transition-all duration-200"
+                              aria-label={isAutoPlay ? 'Pause auto-play' : 'Start auto-play'}
+                            >
+                              {isAutoPlay && !isPaused ? (
+                                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 9v6m4-6v6" />
+                                </svg>
+                              ) : (
+                                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10l6 2-6 2z" />
+                                </svg>
+                              )}
+                            </button>
+                          </div>
+                        )}
                       </div>
-                      <div className="text-gray-400 text-sm mt-2">
-                        Case study cards would appear here
-                      </div>
-                    </div>
+                    </>
                   ) : (
                     <div className="text-center py-12">
                       <div className="text-gray-400 mb-4">
@@ -766,6 +967,60 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
                   </svg>
                 </button>
 
+                {/* Header Badges */}
+                <div className="absolute top-4 left-4 flex flex-wrap gap-2 z-10">
+                  <Badge variant="secondary" className="bg-black/70 text-white border-white/20 backdrop-blur-sm">
+                    {selectedModal.content_type}
+                  </Badge>
+
+                  {/* Video Badge */}
+                  {selectedModal.has_video && (
+                    <Badge variant="secondary" className="bg-red-600 text-white border-red-500 backdrop-blur-sm">
+                      VIDEO
+                    </Badge>
+                  )}
+
+                  {/* Business Model Badges */}
+                  {selectedModal.business_model === 'Both' ? (
+                    <>
+                      <Badge
+                        variant="outline"
+                        className="bg-purple-600 text-white border-purple-500 backdrop-blur-sm"
+                      >
+                        B2B
+                      </Badge>
+                      <Badge
+                        variant="outline"
+                        className="bg-purple-600 text-white border-purple-500 backdrop-blur-sm"
+                      >
+                        B2C
+                      </Badge>
+                    </>
+                  ) : (
+                    <Badge
+                      variant="outline"
+                      className="bg-purple-600 text-white border-purple-500 backdrop-blur-sm"
+                    >
+                      {selectedModal.business_model}
+                    </Badge>
+                  )}
+
+                  {/* Industry Badge */}
+                  <Badge
+                    variant="outline"
+                    className="bg-green-600 text-white border-green-500 backdrop-blur-sm"
+                  >
+                    {selectedModal.industry}
+                  </Badge>
+
+                  <Badge
+                    variant="outline"
+                    className="bg-blue-600 text-white border-blue-500 backdrop-blur-sm"
+                  >
+                    {selectedModal.persona}
+                  </Badge>
+                </div>
+
                 {/* Header Content */}
                 <div className="absolute bottom-4 left-4 right-4 z-10">
                   <h2 className="text-2xl font-bold text-white mb-2 drop-shadow-lg">
@@ -780,6 +1035,23 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
 
             {/* Modal Content */}
             <div className="p-8">
+              {/* Video Player */}
+              {selectedModal.has_video && selectedModal.video_url && (
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold text-white mb-4">Video</h3>
+                  <div className="relative aspect-video rounded-lg overflow-hidden bg-gray-900">
+                    <video
+                      controls
+                      className="w-full h-full"
+                      poster={selectedModal.image_url || undefined}
+                    >
+                      <source src={selectedModal.video_url} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              )}
+
               {/* Overview */}
               <div className="mb-8">
                 <h3 className="text-xl font-semibold text-white mb-4">Overview</h3>
@@ -787,6 +1059,94 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
                   {selectedModal.overview}
                 </p>
               </div>
+
+              {/* Challenge */}
+              {selectedModal.challenge && (
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold text-white mb-4">Challenge</h3>
+                  <div className="bg-red-600/10 border border-red-600/20 rounded-lg p-6">
+                    <h4 className="text-lg font-semibold text-red-200 mb-3">{selectedModal.challenge.headline}</h4>
+                    <p className="text-gray-300 leading-relaxed">{selectedModal.challenge.text}</p>
+                  </div>
+                </div>
+              )}
+
+              {/* Solution */}
+              {selectedModal.solution && (
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold text-white mb-4">Solution</h3>
+                  <div className="bg-blue-600/10 border border-blue-600/20 rounded-lg p-6">
+                    <h4 className="text-lg font-semibold text-blue-200 mb-3">{selectedModal.solution.headline}</h4>
+                    <p className="text-gray-300 leading-relaxed">{selectedModal.solution.text}</p>
+                  </div>
+                </div>
+              )}
+
+              {/* Outcome */}
+              {selectedModal.outcome && (
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold text-white mb-4">Outcome</h3>
+                  <div className="bg-green-600/10 border border-green-600/20 rounded-lg p-6">
+                    <h4 className="text-lg font-semibold text-green-200 mb-3">{selectedModal.outcome.headline}</h4>
+                    <p className="text-gray-300 leading-relaxed">{selectedModal.outcome.text}</p>
+                  </div>
+                </div>
+              )}
+
+              {/* Key Stats */}
+              {selectedModal.stats && Array.isArray(selectedModal.stats) && selectedModal.stats.length > 0 && (
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold text-white mb-4">Key Results</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {selectedModal.stats.map((stat, statIndex) => (
+                      <div key={`modal-stat-${statIndex}`} className="bg-white/5 rounded-lg p-4 border border-white/10">
+                        <div className="text-purple-300 font-bold text-2xl mb-1">
+                          {stat.value}
+                        </div>
+                        <div className="text-gray-400 text-sm">
+                          {stat.label}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Products Used */}
+              {selectedModal.products && Array.isArray(selectedModal.products) && selectedModal.products.length > 0 && (
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold text-white mb-4">Sitecore Products Used</h3>
+                  <div className="flex flex-wrap gap-3">
+                    {selectedModal.products.map((product, productIndex) => (
+                      <Badge
+                        key={`modal-product-${productIndex}`}
+                        variant="outline"
+                        className="border-purple-400/30 text-purple-200 px-3 py-1"
+                      >
+                        {product}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Impact Areas */}
+              {selectedModal.glossary_keys?.impacts && Array.isArray(selectedModal.glossary_keys.impacts) && selectedModal.glossary_keys.impacts.length > 0 && (
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold text-white mb-4">Impact Areas</h3>
+                  <div className="flex flex-wrap gap-3">
+                    {selectedModal.glossary_keys.impacts.map((impact, impactIndex) => (
+                      <Badge
+                        key={`modal-impact-${impactIndex}`}
+                        variant="secondary"
+                        className="bg-green-600/20 text-green-200 border-green-600/30 px-3 py-1"
+                      >
+                        {impact}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Testimonial */}
               {selectedModal.testimonial && (
@@ -849,6 +1209,23 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
 
             {/* Modal Content */}
             <div className="p-8 pt-0">
+              {/* Video Player */}
+              {selectedProduct.video_url && (
+                <div className="mb-6">
+                  <h3 className="text-lg font-semibold text-white mb-3">Product Video</h3>
+                  <div className="relative aspect-video rounded-lg overflow-hidden bg-gray-900">
+                    <video
+                      controls
+                      className="w-full h-full"
+                      poster={selectedProduct.Logo}
+                    >
+                      <source src={selectedProduct.video_url} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              )}
+
               {/* Description */}
               <div className="mb-6">
                 <h3 className="text-lg font-semibold text-white mb-3">About this Product</h3>
