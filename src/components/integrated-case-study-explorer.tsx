@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useCallback } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -287,7 +287,7 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
   }
 
   // Fetch related products and stack information
-  const fetchRelatedInformation = async (caseStudyIds: string[]) => {
+  const fetchRelatedInformation = useCallback(async (caseStudyIds: string[]) => {
     if (caseStudyIds.length === 0) {
       setRelatedProducts([])
       setRelatedStack([])
@@ -324,7 +324,7 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
     } finally {
       setRelatedInfoLoading(false)
     }
-  }
+  }, [])
 
   // Fetch filtered case studies from API
   useEffect(() => {
@@ -378,7 +378,7 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
   useEffect(() => {
     const caseStudyIds = filteredCaseStudies.map(study => study.id)
     fetchRelatedInformation(caseStudyIds)
-  }, [filteredCaseStudies])
+  }, [filteredCaseStudies, fetchRelatedInformation])
 
   // Keyboard navigation
   useEffect(() => {
