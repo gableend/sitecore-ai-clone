@@ -277,37 +277,39 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
         throw new Error(`HTTP error! status: ${response.status}`)
       }
 
-      // Check if response is streaming
-      if (response.headers.get('Content-Type')?.includes('text/plain')) {
-        // Handle streaming response
-        const reader = response.body?.getReader()
-        const decoder = new TextDecoder()
+      const reader = response.body?.getReader()
+      const decoder = new TextDecoder()
 
-        if (!reader) {
-          throw new Error('No reader available')
-        }
+      if (!reader) {
+        throw new Error('No reader available')
+      }
 
-        let accumulatedResponse = ''
-        setAiLoading(false) // Start showing content immediately
+      let accumulatedResponse = ''
+      setAiLoading(false) // Start showing content immediately
 
-        while (true) {
-          const { done, value } = await reader.read()
+      while (true) {
+        const { done, value } = await reader.read()
 
-          if (done) break
+        if (done) break
 
-          const chunk = decoder.decode(value, { stream: true })
-          accumulatedResponse += chunk
-          setAiResponse(accumulatedResponse)
-        }
-      } else {
-        // Handle non-streaming response (fallback)
-        const data = await response.json()
-        setAiLoading(false)
+        const chunk = decoder.decode(value, { stream: true })
 
-        if (data.success) {
-          setAiResponse(data.response)
-        } else {
-          setAiResponse('Sorry, I encountered an error processing your request.')
+        // Parse streaming chunks properly - look for data: lines
+        const lines = chunk.split('\n')
+        for (const line of lines) {
+          if (line.startsWith('0:')) {
+            // Extract content from streaming format like: 0:"text content"
+            const match = line.match(/^0:"(.+?)"$/)
+            if (match) {
+              // Decode escaped characters
+              const content = match[1]
+                .replace(/\\n/g, '\n')
+                .replace(/\\"/g, '"')
+                .replace(/\\\\/g, '\\')
+              accumulatedResponse += content
+              setAiResponse(accumulatedResponse)
+            }
+          }
         }
       }
     } catch (err) {
