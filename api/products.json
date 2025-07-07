@@ -75,5 +75,19 @@
 	"Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/7443020362f542529b06c4f1d89e3e1b?v=fa30422e",
     "description": "A hosting service for Sitecore XP/XM that provides infrastructure management, scaling, and deployment support in the Microsoft Azure cloud, enabling teams to focus on development rather than operations.",
     "video_url": null
+  },
+ {
+    "id": "send",
+    "name": "Sitecore Send",
+	"Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/955ebbf49d6349338ae6744b49792fee?v=101672c0",
+    "description": "An easy to use, yet powerful email marketing solution that integrates seamlessly with Sitecore's DXP solutions. Enabling teams to connect their digital experiences to email engagement with ease.",
+    "video_url": null
+  },
+ {
+    "id": "connect",
+    "name": "Sitecore Connect",
+	"Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/454216a087074d39a4074482511b5426?v=eb395352",
+    "description": "Rapid, API-enabled integration across your entire experience stack. Seamlessly integrate your experience ecosystem with API-enabled integrations and low-code/no-code connectors.",
+    "video_url": "https://webinars.sitecore.com/64968575/82607310/5302bb3063f65bc0472a6f8044e3dc66/video_hd/sitecore-connect-5-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67"
   }
 ]
