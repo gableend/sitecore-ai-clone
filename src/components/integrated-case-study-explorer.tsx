@@ -103,9 +103,12 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
   const businessModelOptions = ["B2B", "B2C", "Both"]
   const personaOptions = ["Marketing", "IT", "Business"]
 
+  // Filter state calculations
+  const totalFilters = selectedBusinessModels.length + selectedPersonas.length
+  const hasFiltersApplied = totalFilters > 0
+
   // AI prompt pills based on current context
   const getContextualPrompts = () => {
-    const totalFilters = selectedBusinessModels.length + selectedPersonas.length
     const studyCount = filteredCaseStudies.length
 
     if (totalFilters === 0) {
@@ -411,9 +414,6 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
 
     return () => clearInterval(interval)
   }, [isAutoPlay, isPaused, filteredCaseStudies.length, cardsPerView])
-
-  const totalFilters = selectedBusinessModels.length + selectedPersonas.length
-  const hasFiltersApplied = totalFilters > 0
 
   return (
     <div className={className}>
