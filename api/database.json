@@ -63,7 +63,7 @@
       "partner_url": "https://www.deloittedigital.com/",
       "product_ids": [
         "managed-cloud",
-        "experience-platform"
+        "xp"
       ],
       "stack_ids": [
         "salesforce"
@@ -1210,7 +1210,7 @@
       "product_ids": [
         "content-hub",
         "managed-cloud",
-        "experience-platform"
+        "xp"
       ],
       "stack_ids": [],
       "glossary_keys": {
@@ -1718,7 +1718,7 @@
       "partner_url": "http://www.ping-works.com.au/",
       "product_ids": [
         "cdp",
-        "experience-platform",
+        "xp",
         "personalize",
         "send",
         "content-hub"
@@ -1873,7 +1873,7 @@
       "partner_logo": null,
       "partner_url": null,
       "product_ids": [
-        "experience-platform",
+        "xp",
         "content-hub"
       ],
       "stack_ids": [
@@ -2197,7 +2197,7 @@
       "partner_url": "https://www.horizontaldigital.com/",
       "product_ids": [
         "xm",
-        "experience-platform",
+        "xp",
         "cdp",
         "personalize"
       ],
@@ -2353,7 +2353,7 @@
       "partner_url": "http://www.vml.com/",
       "product_ids": [
         "xm",
-        "experience-platform",
+        "xp",
         "managed-cloud",
         "content-hub"
       ],
@@ -2666,11 +2666,11 @@
       "partner_logo": "",
       "persona": "Marketing",
   "product_ids": [
-        "XP"
+        "xp"
       ],
     "stack_ids": [
-        "Microsoft",
-        "ServiceNow"
+        "microsoft",
+        "servicenow"
       ],
       "glossary_keys": {
         "impacts": [
@@ -2903,11 +2903,11 @@
       "partner_logo": "https://sitecore.file.force.com/sfc/dist/version/download/?oid=00D1N000002b5Vq&ids=0683m00000VlhRa&d=%2Fa%2FUj000003p2Iz%2FJ_EXCy.nrMCIrMtK7aXhcFOCTr_SHxVFh_yP2LkoSeA&asPdf=false",
       "partner_url": "https://www.hcltech.com/",
       "product_ids": [
-        "Xp"
+        "xp"
       ],
       "stack_ids": [
-	"JSS",
-        "Microsoft"
+	"jss",
+        "microsoft"
 	],
       "glossary_keys": {
         "impacts": [

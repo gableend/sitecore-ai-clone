@@ -138,5 +138,25 @@
     "type": "SDK",
     "description": "A complete SDK for JavaScript developers that enables building full-fledged solutions using Sitecore and modern JavaScript UI libraries and frameworks like React, Angular, and Vue.",
     "primary_use": "Acts as the toolkit and SDK for connecting a JavaScript-based frontend application (the 'head') to the Sitecore backend in a headless architecture, managing data fetching and context."
+  },
+  {
+    "id": "coveo",
+    "name": "Coveo",
+    "logo": "🔍",
+    "vendor": "Coveo",
+    "category": "Search & Personalization",
+    "type": "Platform",
+    "description": "An AI-powered relevance platform that provides intelligent search, content recommendations, and personalization services to deliver relevant experiences.",
+    "primary_use": "Integrates with a DXP to provide an intelligent, unified search experience. It uses AI to personalize results and recommend content to users, improving content discoverability and engagement."
+  },
+  {
+    "id": "okta",
+    "name": "Okta",
+    "logo": "🔑",
+    "vendor": "Okta",
+    "category": "Identity & Access Management",
+    "type": "Platform",
+    "description": "A leading identity and access management (IAM) platform that provides secure user authentication, single sign-on (SSO), and multi-factor authentication (MFA).",
+    "primary_use": "Acts as the central identity provider for the DXP and related applications, managing secure login and access control for customers and employees (CIAM and Workforce IAM)."
   }
 ]
