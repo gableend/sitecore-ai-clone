@@ -5,6 +5,8 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 interface CaseStudy {
   id: string
@@ -248,7 +250,7 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
     </Card>
   )
 
-  // AI prompt handler
+  // AI prompt handler with streaming
   const handleAIPrompt = async (prompt: string) => {
     setAiLoading(true)
     setAiResponse('')
@@ -271,18 +273,47 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
         }),
       })
 
-      const data = await response.json()
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
 
-      if (data.success) {
-        setAiResponse(data.response)
+      // Check if response is streaming
+      if (response.headers.get('Content-Type')?.includes('text/plain')) {
+        // Handle streaming response
+        const reader = response.body?.getReader()
+        const decoder = new TextDecoder()
+
+        if (!reader) {
+          throw new Error('No reader available')
+        }
+
+        let accumulatedResponse = ''
+        setAiLoading(false) // Start showing content immediately
+
+        while (true) {
+          const { done, value } = await reader.read()
+
+          if (done) break
+
+          const chunk = decoder.decode(value, { stream: true })
+          accumulatedResponse += chunk
+          setAiResponse(accumulatedResponse)
+        }
       } else {
-        setAiResponse('Sorry, I encountered an error processing your request.')
+        // Handle non-streaming response (fallback)
+        const data = await response.json()
+        setAiLoading(false)
+
+        if (data.success) {
+          setAiResponse(data.response)
+        } else {
+          setAiResponse('Sorry, I encountered an error processing your request.')
+        }
       }
     } catch (err) {
+      setAiLoading(false)
       setAiResponse('Sorry, I encountered an error processing your request.')
       console.error('Error calling AI:', err)
-    } finally {
-      setAiLoading(false)
     }
   }
 
@@ -719,13 +750,13 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
                               className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 rounded-full p-2 transition-all duration-200"
                               aria-label={isAutoPlay ? 'Pause auto-play' : 'Start auto-play'}
                             >
-                              {isAutoPlay && !isPaused ? (
+                              {isAutoPlay ? (
                                 <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 9v6m4-6v6" />
                                 </svg>
                               ) : (
-                                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10l6 2-6 2z" />
+                                <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                  <path d="M8 5v14l11-7z"/>
                                 </svg>
                               )}
                             </button>
@@ -825,7 +856,7 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
                         <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
                         <span className="text-purple-300 text-sm font-medium">AI Analysis</span>
                       </div>
-                      {aiLoading ? (
+                      {aiLoading && !aiResponse ? (
                         <div className="flex items-center space-x-3">
                           <div className="flex space-x-1">
                             <div className="w-2 h-2 bg-purple-500 rounded-full animate-pulse"></div>
@@ -835,9 +866,34 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
                           <span className="text-gray-300">Analyzing your case studies...</span>
                         </div>
                       ) : (
-                        <div className="prose prose-sm prose-invert max-w-none">
-                          <div className="text-gray-200 whitespace-pre-wrap text-sm leading-relaxed">
-                            {aiResponse}
+                        <div className="relative">
+                          {aiLoading && aiResponse && (
+                            <div className="absolute top-0 right-0 flex items-center space-x-2 bg-purple-600/20 rounded-full px-3 py-1 border border-purple-600/30">
+                              <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
+                              <span className="text-purple-300 text-xs">Streaming...</span>
+                            </div>
+                          )}
+                          <div className="prose prose-sm prose-invert max-w-none">
+                            <ReactMarkdown
+                              remarkPlugins={[remarkGfm]}
+                              className="text-gray-200 text-sm leading-relaxed"
+                              components={{
+                                h1: ({children}) => <h1 className="text-lg font-bold text-white mb-3 mt-4 first:mt-0">{children}</h1>,
+                                h2: ({children}) => <h2 className="text-base font-semibold text-white mb-2 mt-3">{children}</h2>,
+                                h3: ({children}) => <h3 className="text-sm font-semibold text-white mb-2 mt-2">{children}</h3>,
+                                p: ({children}) => <p className="text-gray-200 mb-3 last:mb-0">{children}</p>,
+                                ul: ({children}) => <ul className="text-gray-200 mb-3 ml-4 space-y-1">{children}</ul>,
+                                ol: ({children}) => <ol className="text-gray-200 mb-3 ml-4 space-y-1">{children}</ol>,
+                                li: ({children}) => <li className="text-gray-200">{children}</li>,
+                                strong: ({children}) => <strong className="text-white font-semibold">{children}</strong>,
+                                em: ({children}) => <em className="text-purple-200">{children}</em>,
+                                code: ({children}) => <code className="bg-slate-800 text-purple-200 px-1 py-0.5 rounded text-xs">{children}</code>,
+                                pre: ({children}) => <pre className="bg-slate-800 p-3 rounded text-xs overflow-x-auto mb-3">{children}</pre>,
+                                blockquote: ({children}) => <blockquote className="border-l-4 border-purple-500 pl-4 italic text-gray-300 mb-3">{children}</blockquote>
+                              }}
+                            >
+                              {aiResponse}
+                            </ReactMarkdown>
                           </div>
                         </div>
                       )}

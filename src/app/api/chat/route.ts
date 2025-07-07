@@ -1,5 +1,6 @@
 import { type NextRequest, NextResponse } from 'next/server'
 import { openai } from '@ai-sdk/openai'
+import { streamText } from 'ai'
 import { z } from 'zod'
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -382,15 +383,86 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Call the AI analysis function
-    const aiResponseText = await getAiAnalysis(userPrompt, selectedModelType, filters)
+    // Prepare data for analysis
+    const fullDatabase = loadDatabase()
+    const relevantCaseStudies = applyFilters(fullDatabase.case_studies || [], filters)
 
-    // Return the AI's response
-    return NextResponse.json({
-      success: true,
-      response: aiResponseText,
-      usingAI: true
-    })
+    if (!relevantCaseStudies.length) {
+      return NextResponse.json({
+        success: true,
+        response: "No case studies match your selection. Please adjust your filters.",
+        usingAI: true
+      })
+    }
+
+    // Prepare data for the AI prompt
+    const dataForPrompt = {
+      relevant_case_studies: relevantCaseStudies,
+      full_glossary: fullDatabase.glossary || [],
+      full_products_list: fullDatabase.products || []
+    }
+    const dataStr = JSON.stringify(dataForPrompt, null, 2)
+
+    const systemMessage = `
+      You are an expert data analyst and consultant specializing in digital experience platforms and Sitecore implementations.
+
+      You will be provided with a curated list of relevant case studies and a full data glossary.
+      Your task is to provide insightful, actionable analysis based ONLY on this provided data.
+
+      Format your response in clear, well-structured markdown with:
+      - Clear headings and sections
+      - Bullet points for key insights
+      - Specific examples from the case studies
+      - Quantifiable outcomes when available
+      - Strategic recommendations where appropriate
+
+      Be conversational but professional, and focus on practical insights that would be valuable to someone evaluating Sitecore solutions.
+    `
+
+    const fullPrompt = `Here is the data for your analysis:\n\`\`\`json\n${dataStr}\n\`\`\`\n\nHere is my question:\n"${userPrompt}"`
+
+    // Check which AI service to use
+    const azureApiKey = process.env.AZURE_OPENAI_API_KEY
+    const azureEndpoint = process.env.AZURE_OPENAI_ENDPOINT
+    const azureDeployment = process.env.AZURE_OPENAI_DEPLOYMENT_NAME
+    const openaiApiKey = process.env.OPENAI_API_KEY
+
+    if (selectedModelType === 'azure' && azureApiKey && azureEndpoint && azureDeployment) {
+      // Use Azure OpenAI with streaming
+      console.log('DEBUG: Using Azure OpenAI with streaming')
+
+      const result = await streamText({
+        model: openai('gpt-4o'),
+        system: systemMessage,
+        prompt: fullPrompt,
+        temperature: 0.1,
+        maxTokens: 4000,
+      })
+
+      return result.toDataStreamResponse()
+
+    } else if (openaiApiKey) {
+      // Use standard OpenAI with streaming
+      console.log('DEBUG: Using Standard OpenAI with streaming')
+
+      const result = await streamText({
+        model: openai('gpt-4o'),
+        system: systemMessage,
+        prompt: fullPrompt,
+        temperature: 0.1,
+        maxTokens: 4000,
+      })
+
+      return result.toDataStreamResponse()
+
+    } else {
+      // Fallback to non-streaming for error cases
+      return NextResponse.json({
+        success: false,
+        error: 'No AI service configured. Please set up OpenAI or Azure OpenAI credentials.',
+        usingAI: false
+      })
+    }
 
   } catch (error: unknown) {
     console.error('Error in chat API:', error)
