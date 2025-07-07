@@ -153,18 +153,18 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
   }
 
   // Carousel navigation functions
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     if (filteredCaseStudies.length === 0) return
     setCurrentIndex(prev => (prev + 1) % filteredCaseStudies.length)
-  }
+  }, [filteredCaseStudies.length])
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     if (filteredCaseStudies.length === 0) return
     setCurrentIndex(prev => {
       const newIndex = prev - 1
       return newIndex < 0 ? filteredCaseStudies.length - 1 : newIndex
     })
-  }
+  }, [filteredCaseStudies.length])
 
   const goToSlide = (index: number) => {
     setCurrentIndex(index)
@@ -433,7 +433,7 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
 
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [selectedModal])
+  }, [selectedModal, nextSlide, prevSlide])
 
   // Auto-play functionality
   useEffect(() => {
@@ -876,7 +876,6 @@ export function IntegratedCaseStudyExplorer({ className }: IntegratedCaseStudyEx
                           <div className="prose prose-sm prose-invert max-w-none">
                             <ReactMarkdown
                               remarkPlugins={[remarkGfm]}
-                              className="text-gray-200 text-sm leading-relaxed"
                               components={{
                                 h1: ({children}) => <h1 className="text-lg font-bold text-white mb-3 mt-4 first:mt-0">{children}</h1>,
                                 h2: ({children}) => <h2 className="text-base font-semibold text-white mb-2 mt-3">{children}</h2>,
