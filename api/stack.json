@@ -1,0 +1,142 @@
+[
+  {
+    "id": "ms-dynamics",
+    "name": "Microsoft Dynamics 365",
+    "logo": "💼",
+    "vendor": "Microsoft",
+    "category": "CRM",
+    "type": "Platform",
+    "description": "A suite of intelligent business applications (CRM and ERP) from Microsoft for managing core business processes like sales, customer service, and finance.",
+    "primary_use": "Acts as the core Customer Relationship Management (CRM) system, feeding customer data, sales history, and service interactions into the DXP for personalization."
+  },
+  {
+    "id": "marketo",
+    "name": "Adobe Marketo Engage",
+    "logo": "🎯",
+    "vendor": "Adobe",
+    "category": "Marketing Automation",
+    "type": "Platform",
+    "description": "A marketing automation platform that helps companies manage and nurture leads, orchestrate customer journeys, and prove marketing's impact.",
+    "primary_use": "Manages lead nurturing and email marketing campaigns that drive users to experiences built on the DXP, and receives data back from the DXP to score leads."
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce CRM",
+    "logo": "☁️",
+    "vendor": "Salesforce",
+    "category": "CRM",
+    "type": "Platform",
+    "description": "A cloud-based Customer Relationship Management (CRM) platform that provides a single, shared view of every customer for all departments.",
+    "primary_use": "Serves as the central repository for customer data and sales funnels, integrating with the DXP to personalize user journeys and capture new leads."
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "logo": "▲",
+    "vendor": "Vercel",
+    "category": "Cloud & Hosting",
+    "type": "Platform",
+    "description": "A cloud platform for frontend frameworks and static sites, known for its seamless integration with Next.js and its focus on developer experience and high-performance hosting.",
+    "primary_use": "Serves as the high-performance hosting and deployment platform for the 'head' (the frontend application) in a headless DXP architecture."
+  },
+  {
+    "id": "bynder",
+    "name": "Bynder",
+    "logo": "🖼️",
+    "vendor": "Bynder",
+    "category": "Digital Asset Management",
+    "type": "Platform",
+    "description": "A cloud-based Digital Asset Management (DAM) platform that helps brands create, find, and use digital content.",
+    "primary_use": "Acts as a centralized Digital Asset Management (DAM) system, storing all media (images, videos) that is then pulled into the DXP for use in content and experiences."
+  },
+  {
+    "id": "gcp",
+    "name": "Google Cloud Platform (GCP)",
+    "logo": "⚙️",
+    "vendor": "Google",
+    "category": "Cloud & Hosting",
+    "type": "Platform",
+    "description": "A suite of cloud computing services offered by Google, providing a series of modular cloud services including computing, data storage, data analytics, and machine learning.",
+    "primary_use": "Provides scalable backend infrastructure, data storage, or specialized AI/ML services that integrate with and support the DXP."
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "logo": "▶️",
+    "vendor": "Vercel",
+    "category": "Frontend & Development",
+    "type": "Framework",
+    "description": "A popular open-source React framework that enables functionalities such as server-side rendering and generating static websites for React-based web applications.",
+    "primary_use": "The primary framework for building the user-facing website or application that consumes content from the DXP's APIs in a headless implementation."
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "logo": "⚛️",
+    "vendor": "Meta",
+    "category": "Frontend & Development",
+    "type": "Library",
+    "description": "An open-source JavaScript library for building user interfaces or UI components, maintained by Facebook and a community of individual developers and companies.",
+    "primary_use": "The foundational JavaScript library used to build the interactive UI components for the frontend application in a headless DXP setup."
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "logo": "🟦",
+    "vendor": "Microsoft",
+    "category": "Cloud & Hosting",
+    "type": "Platform",
+    "description": "Microsoft's cloud computing platform, offering a wide range of services including computing, analytics, storage, and networking. It's often used for hosting applications and managing enterprise infrastructure.",
+    "primary_use": "Provides scalable cloud hosting for the DXP itself or for related backend services, databases, and identity management (Microsoft Entra ID)."
+  },
+  {
+    "id": "sap",
+    "name": "SAP",
+    "logo": "🏭",
+    "vendor": "SAP",
+    "category": "Business Systems",
+    "type": "Platform",
+    "description": "An enterprise resource planning (ERP) software company that provides solutions for managing business operations and customer relations.",
+    "primary_use": "Integrates business-critical data such as product information (PIM), inventory, and pricing into the DXP, especially for complex e-commerce solutions."
+  },
+  {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "logo": "🛎️",
+    "vendor": "ServiceNow",
+    "category": "Service Management",
+    "type": "Platform",
+    "description": "A cloud platform that provides digital workflows to manage and automate IT, employee, and customer-related business processes.",
+    "primary_use": "Manages customer service workflows, allowing the DXP to integrate with support ticketing systems or power self-service help portals."
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft Ecosystem",
+    "logo": "🪟",
+    "vendor": "Microsoft",
+    "category": "Business Systems",
+    "type": "Ecosystem",
+    "description": "General integration with Microsoft's suite of enterprise products, including cloud services, business applications, and other tools.",
+    "primary_use": "General enterprise integration for identity services (Microsoft Entra ID), productivity tools (M365), and various business applications that feed data into the DXP."
+  },
+  {
+    "id": "sitecore-360",
+    "name": "Sitecore 360",
+    "logo": "🤝",
+    "vendor": "Sitecore",
+    "category": "Support & Services",
+    "type": "Service",
+    "description": "A comprehensive customer success plan from Sitecore that provides expert support, resources, and strategic guidance to help customers maximize the value of their Sitecore investment.",
+    "primary_use": "A support and success service, not a technology. It provides expert guidance for optimizing the implementation and strategy of the DXP itself."
+  },
+  {
+    "id": "jss",
+    "name": "Sitecore JavaScript Services (JSS)",
+    "logo": "</>",
+    "vendor": "Sitecore",
+    "category": "Platform & SDK",
+    "type": "SDK",
+    "description": "A complete SDK for JavaScript developers that enables building full-fledged solutions using Sitecore and modern JavaScript UI libraries and frameworks like React, Angular, and Vue.",
+    "primary_use": "Acts as the toolkit and SDK for connecting a JavaScript-based frontend application (the 'head') to the Sitecore backend in a headless architecture, managing data fetching and context."
+  }
+]

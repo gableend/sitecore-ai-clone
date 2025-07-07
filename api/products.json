@@ -1,0 +1,79 @@
+[
+  {
+    "id": "xm-cloud",
+    "name": "Sitecore XM Cloud",
+    "Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/66f8485b099742aeb000d6a4afef294d?v=6fe5df36",
+    "description": "A cloud-native, headless CMS that offers unparalleled scalability and agility for creating and delivering omnichannel content. It is Sitecore's flagship SaaS CMS.",
+    "video_url": "http://webinars.sitecore.com/sitecore-xm-cloud-real-world"
+  },
+  {
+    "id": "content-hub",
+    "name": "Sitecore Content Hub",
+    "Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/919b5e32aa7a43908227c534ce9fb944?v=812f947d",
+    "description": "A comprehensive solution for content strategy, planning, creation, and management, including Digital Asset Management (DAM), Content Marketing Platform (CMP), and Product Content Management (PCM).",
+    "video_url": "http://webinars.sitecore.com/sitecore-content-hub-product-video-1"
+  },
+  {
+    "id": "cdp",
+    "name": "Sitecore CDP",
+ "Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/64393184568d4d47988bcf804fdbb919?v=402d3222",
+    "description": "A customer data platform that collects and unifies real-time customer data from all sources to create a single, coherent view of each customer. It supports real-time segmentation and data activation.",
+    "video_url": "https://webinars.sitecore.com/64968579/95063896/5c1c21380abfc74a3ff3d0f5cfbae037/video_hd/sitecore-cdp-personalize-11-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67"
+  },
+  {
+    "id": "personalize",
+    "name": "Sitecore Personalize",
+ "Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/53de8516acf8488ebe4e0bb7e56ee581?v=7112f152",
+    "description": "A tool for delivering personalized, omnichannel experiences. It uses data from Sitecore CDP to trigger real-time, rule-based, and AI-driven personalization across websites, mobile apps, and other channels.",
+    "video_url": "https://webinars.sitecore.com/64968579/95063896/5c1c21380abfc74a3ff3d0f5cfbae037/video_hd/sitecore-cdp-personalize-11-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67"
+  },
+  {
+    "id": "search",
+    "name": "Sitecore Search",
+    "Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/4181cb81dd8c453894f7d08472cea8b9?v=e3368081",
+    "description": "An AI-powered, headless search solution that provides relevant and personalized search results for websites. It helps users find content and products quickly and efficiently.",
+    "video_url": "http://webinars.sitecore.com/sitecore-search-1"
+  },
+  {
+    "id": "ordercloud",
+    "name": "Sitecore OrderCloud",
+ "Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/5296362cafbb482cbe20a8e35e8688fd?v=403c8b32",
+    "description": "A composable, API-first, and headless ecommerce platform designed for complex B2B, B2C, and B2B2C commerce scenarios. It offers high flexibility for creating custom commerce solutions.",
+    "video_url": "https://webinars.sitecore.com/64968571/92430064/3d47849e01a7dc56353117dba653a816/video_hd/sitecore-ordercloud-real-world-10-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67"
+  },
+  {
+    "id": "discover",
+    "name": "Sitecore Discover",
+	"Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/4181cb81dd8c453894f7d08472cea8b9?v=e3368081",
+    "description": "An AI-driven product discovery tool for commerce that provides individualized search results and recommendations, helping to increase conversions and average order value.",
+    "video_url": null
+  },
+  {
+    "id": "xp",
+    "name": "Sitecore Experience Platform (XP)",
+	"Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/3e340e2be5e242219c215b53621b3bb4?v=439e6a64",
+    "description": "Sitecore's traditional all-in-one Digital Experience Platform (DXP), combining content management, marketing automation, analytics, and personalization in a single, tightly integrated platform.",
+    "video_url": null
+  },
+  {
+    "id": "xm",
+    "name": "Sitecore Experience Manager (XM)",
+	"Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/219502723b1f4b9788246b51e5bacf9d?v=8054d32e",
+    "description": "The core Content Management System (CMS) component of Sitecore XP, focused on managing and delivering content across multiple websites. It is the foundational layer of the Experience Platform.",
+    "video_url": null
+  },
+  {
+    "id": "stream",
+    "name": "Sitecore Stream",
+	"Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/bfede85231a7485a89fbdea1eb4e1dd8?v=23dd1304",
+    "description": "Transform your content-experience lifecycle with brand-aware AI, copilots and agents, and agentic workflows to work smarter, more strategically, and more securely.",
+    "video_url": "https://webinars.sitecore.com/64968558/105380011/07f8cf17eb0dde1ac605ba4f2db8d32d/video_hd/download-10-video.mp4?referer=&uuid=968baaae-eff0-0acf-8f7c-db31a94fcc67"
+  },
+  {
+    "id": "managed-cloud",
+    "name": "Managed Cloud",
+	"Logo": "https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/7443020362f542529b06c4f1d89e3e1b?v=fa30422e",
+    "description": "A hosting service for Sitecore XP/XM that provides infrastructure management, scaling, and deployment support in the Microsoft Azure cloud, enabling teams to focus on development rather than operations.",
+    "video_url": null
+  }
+]
